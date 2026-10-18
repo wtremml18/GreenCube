@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-18",
+  "unit_tests": {
+    "passed": 11,
+    "exit_code": 0,
+    "command": "python -m pytest research/track_observability/tests research/gaussian_transport/tests -q"
+  },
+  "full_reproduction": {
+    "exit_code": 0,
+    "command": "python research/reproduce.py",
+    "status": "All research stages completed."
+  },
+  "result_integrity": {
+    "exit_code": 0,
+    "evaluation_rows": 1484,
+    "fluid_designs": 120,
+    "checks": [
+      "finite numeric outputs",
+      "expected row counts",
+      "disjoint fluid training and test voxels",
+      "shared test voxels across paired designs",
+      "100 percent smoke-support coverage in control",
+      "nested public split separation"
+    ]
+  },
+  "static_check": {
+    "command": "ruff check --select F research",
+    "exit_code": 0
+  }
+}

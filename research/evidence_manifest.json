@@ -1,0 +1,457 @@
+{
+  "python": "3.14.2",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1"
+  },
+  "files": [
+    {
+      "path": "research/LITERATURE.md",
+      "bytes": 5307,
+      "sha256": "47146a90d908e6eda837c095eb3257fa9bfeff871def3de883e392d7abed1670"
+    },
+    {
+      "path": "research/METHODS.md",
+      "bytes": 7434,
+      "sha256": "f33ebc0e04b9825d18ece0e56e049e74ff374ea12c6e9e7d49f14781ae4f0a39"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 3910,
+      "sha256": "d157777bf2a84f2f5a0638a54dbe9b09d03395c0a78a1019912c0da02ca022e4"
+    },
+    {
+      "path": "research/RESEARCH_FINDINGS.md",
+      "bytes": 14969,
+      "sha256": "499e9f5fa7373f39d13b6c35315785af4eef116d200e700209b1fe9b4124b9b6"
+    },
+    {
+      "path": "research/gaussian_transport/.gitignore",
+      "bytes": 53,
+      "sha256": "18e03d2a83338082cea8dc13c5b531c052d70356520b14af75e00242358fe32a"
+    },
+    {
+      "path": "research/gaussian_transport/PROTOCOL.md",
+      "bytes": 3749,
+      "sha256": "6b5ccff011e9b6cb83cb2928b75a8bc263e2e1d2890172309d238f498e7e9219"
+    },
+    {
+      "path": "research/gaussian_transport/data/README.md",
+      "bytes": 1788,
+      "sha256": "23a02f027fc309af03ddb9ed5bc91e06b70ddd50feb44e1270ff3a0b3aa7b247"
+    },
+    {
+      "path": "research/gaussian_transport/data/fluid_manifest.json",
+      "bytes": 1302,
+      "sha256": "98b3231913148c82f0587bc4ede0e11b6ff0a1cee1f8a4d950623eaeb113c954"
+    },
+    {
+      "path": "research/gaussian_transport/figures/density_ambiguity.pdf",
+      "bytes": 31299,
+      "sha256": "8f0d371aefdf877d06c05c1e5d2610cae85de48b101cbf767b586e1f6d8d8ebe"
+    },
+    {
+      "path": "research/gaussian_transport/figures/density_ambiguity.png",
+      "bytes": 156593,
+      "sha256": "180b6d12b0beb2ad47a79fb4db7368325f1bbdee2fdbd48e4905461ce6511862"
+    },
+    {
+      "path": "research/gaussian_transport/figures/fluid_and_geometry.pdf",
+      "bytes": 18334,
+      "sha256": "aed1a9d38a0a8dc40d8b96b38cba1e0ac3f7c4c17065d0e4b81cd0ea5fd74ecc"
+    },
+    {
+      "path": "research/gaussian_transport/figures/fluid_and_geometry.png",
+      "bytes": 101577,
+      "sha256": "f3ece27d3ad702171d39bdb6bf36196975de28de761adf3e5a0c0acdad0425b2"
+    },
+    {
+      "path": "research/gaussian_transport/results/density_ambiguity.csv",
+      "bytes": 409,
+      "sha256": "d55193a0833eb4eac010837b9e3c6b3fba87dd591bbccb4248a891c5f7cba13b"
+    },
+    {
+      "path": "research/gaussian_transport/results/exact_ambiguity.json",
+      "bytes": 2326,
+      "sha256": "5828013fe04c7e7fe1546a7b9026493bf5876d49389e648f828e53957957313d"
+    },
+    {
+      "path": "research/gaussian_transport/results/extended_summary.json",
+      "bytes": 3374,
+      "sha256": "a1f8c20cf8d57cf040689f93ff2c539182919e0821c1b0e2a80a97925fce7ff2"
+    },
+    {
+      "path": "research/gaussian_transport/results/fluid.csv",
+      "bytes": 22829,
+      "sha256": "f4eeb04e8ead5a4c2f4c801ebf0390000126dce48b8e5aa82bd820ad02bdbc95"
+    },
+    {
+      "path": "research/gaussian_transport/results/fluid_frame_summary.csv",
+      "bytes": 378,
+      "sha256": "5a206ff46df53ea45cbcc6fbe9cd7b572f457265bddd6983d6baf664b0070e42"
+    },
+    {
+      "path": "research/gaussian_transport/results/fluid_samples.json",
+      "bytes": 519170,
+      "sha256": "cff1916a1166d6371731a93bc8d4b42b48e98584bb2a783d65346e416d712980"
+    },
+    {
+      "path": "research/gaussian_transport/results/fluid_samples_support_matched.json",
+      "bytes": 517994,
+      "sha256": "2d4f7613b42fcf6d6a15c5a197189549dd119c95bf10d28a0f3e026c71210af4"
+    },
+    {
+      "path": "research/gaussian_transport/results/fluid_support_matched.csv",
+      "bytes": 21405,
+      "sha256": "e26511b0859affbd9c14d720f83d277fc0cd41a964231767e3fde28c24596490"
+    },
+    {
+      "path": "research/gaussian_transport/results/fluid_support_summary.csv",
+      "bytes": 743,
+      "sha256": "1f9cb48333bbfe2876c0244102494c792c7385448c303380cc06bf81594fcbcf"
+    },
+    {
+      "path": "research/gaussian_transport/results/summary.csv",
+      "bytes": 990,
+      "sha256": "a346192cf809341b8ca7c26dbb6e849f405dd0bb21310532bed04102576bf436"
+    },
+    {
+      "path": "research/gaussian_transport/results/transport.csv",
+      "bytes": 17080,
+      "sha256": "8e18c8bc38ebdda8115bf0f33aeae5671c65dd7b79b1d3c3c6e7dcc7a93043fe"
+    },
+    {
+      "path": "research/gaussian_transport/scripts/fetch_fluid.py",
+      "bytes": 1582,
+      "sha256": "0da23c7203589b7a10b675634b14ac67d9c5333ca6dbe4caf8da43eef14a42f9"
+    },
+    {
+      "path": "research/gaussian_transport/scripts/run_ambiguity.py",
+      "bytes": 3139,
+      "sha256": "48b9680aba87e2e5d54c76c9ac991d0676846d808fb678ad535344dbcd1c6bf8"
+    },
+    {
+      "path": "research/gaussian_transport/scripts/run_benchmark.py",
+      "bytes": 2272,
+      "sha256": "6408c42608aedf17adafe1ec488c8e420a74ce99bf9010fa376f77d2cccd128d"
+    },
+    {
+      "path": "research/gaussian_transport/scripts/run_fluid.py",
+      "bytes": 6557,
+      "sha256": "28c4f7df356f9115d1e6a4368ae3f4de8893959704227bc3b8912d020caef1f2"
+    },
+    {
+      "path": "research/gaussian_transport/scripts/summarize.py",
+      "bytes": 4425,
+      "sha256": "6c8fe78b46b8b32e37763ea80843953525530770d8ec1252b99a3bab1e359cb4"
+    },
+    {
+      "path": "research/gaussian_transport/src/ambiguity.py",
+      "bytes": 677,
+      "sha256": "a3d30d7af433f8c95e86823938a3c67b63054f33c69eac6b9a6587c749795269"
+    },
+    {
+      "path": "research/gaussian_transport/src/transport.py",
+      "bytes": 1589,
+      "sha256": "d4a3148a3270fc33c0f38cd1e7205ec8f1c11977d5654e28c94dd277654ab04c"
+    },
+    {
+      "path": "research/gaussian_transport/tests/test_transport.py",
+      "bytes": 1938,
+      "sha256": "3e32702e4836e62b6db5bea442c90546970a4f46d159a59de2fd3b73a60a1b6e"
+    },
+    {
+      "path": "research/generate_manifest.py",
+      "bytes": 1103,
+      "sha256": "052fde7e78d68a33a67b208371ecdb57df1502f38aa3086e3a405567738acac3"
+    },
+    {
+      "path": "research/reproduce.py",
+      "bytes": 1421,
+      "sha256": "e083837c019d5079ef8b5bcc60ca7fac06d0050b25f8637406b6c7a4a90949d4"
+    },
+    {
+      "path": "research/track_observability/.gitignore",
+      "bytes": 46,
+      "sha256": "9f63f5c0fb5ba718d5b262f90bacf22810e7949b424219dd55940ef536d8e550"
+    },
+    {
+      "path": "research/track_observability/data/README.md",
+      "bytes": 2009,
+      "sha256": "c3428786e50998f7d2ce839c7980fcb24ebf24d80d7f1cebe9cb0b306fbb09e7"
+    },
+    {
+      "path": "research/track_observability/data/UPSTREAM_LICENSE.txt",
+      "bytes": 1076,
+      "sha256": "ff7e562734198ef97bb7542013ba94bb507f8836fbc42ae3d6a7fb3e4d80c4e7"
+    },
+    {
+      "path": "research/track_observability/data/manifest.json",
+      "bytes": 1187,
+      "sha256": "7c7c7d6c14b94481f10c9a3c60e5546e08797b7b54597bff5c39badf72e296fa"
+    },
+    {
+      "path": "research/track_observability/figures/blind_field.pdf",
+      "bytes": 88679,
+      "sha256": "9bada6b200759987198ca256d86ab2baf6913843a13e362b9427d526095314e1"
+    },
+    {
+      "path": "research/track_observability/figures/blind_field.png",
+      "bytes": 170528,
+      "sha256": "0374c9fd54d663ae3605c4a9a198c78b02cdf3f18aee62b6ed8c32f83322af5b"
+    },
+    {
+      "path": "research/track_observability/figures/observability.pdf",
+      "bytes": 24265,
+      "sha256": "0a67f1249f6359a20b8f77bf74a87e417bf3a76d8bb7ea26f0375002f701a20a"
+    },
+    {
+      "path": "research/track_observability/figures/observability.png",
+      "bytes": 159904,
+      "sha256": "9224a37998283dabd4692fc6ab081f3b892e96581a06fa7ba59539579737e7af"
+    },
+    {
+      "path": "research/track_observability/figures/public_holdout.pdf",
+      "bytes": 13683,
+      "sha256": "8f4828ddb3a588220d465eaa50dc600023bc1c9a84db7b2022b226489be76f26"
+    },
+    {
+      "path": "research/track_observability/figures/public_holdout.png",
+      "bytes": 39580,
+      "sha256": "32959945e548ff6437dfb642d39b84516018661ce1c159283b817ea89bb1235c"
+    },
+    {
+      "path": "research/track_observability/figures/validation.pdf",
+      "bytes": 24102,
+      "sha256": "bc02437ca93b171dd5c08805b7e3ca7fc3d6ccb7b3556954b17d8ec607410d13"
+    },
+    {
+      "path": "research/track_observability/figures/validation.png",
+      "bytes": 147693,
+      "sha256": "9e3e1bac33e4d4d8d935dc38c978cf413c1543dccb4ad75595da665593c1bf44"
+    },
+    {
+      "path": "research/track_observability/notes/protocol.md",
+      "bytes": 5770,
+      "sha256": "6733823106c407468b7788b4539414d2707b7ab0c672c91a13f1708d354e709f"
+    },
+    {
+      "path": "research/track_observability/notes/thesis_review.md",
+      "bytes": 5779,
+      "sha256": "d4b90e3e282807fa70d291bbe46516d2f7b930667f58c94e178107921d496964"
+    },
+    {
+      "path": "research/track_observability/pytest.ini",
+      "bytes": 42,
+      "sha256": "b160d82f7811555051f8966d8e02750a985227c1d022208c784e606946f2eada"
+    },
+    {
+      "path": "research/track_observability/requirements-lock.txt",
+      "bytes": 441,
+      "sha256": "53331de59201a16861050258d07aeeefbd08c8676ebcd651d3455a9846ea850a"
+    },
+    {
+      "path": "research/track_observability/requirements.txt",
+      "bytes": 61,
+      "sha256": "4973f75d317ff9fdaa1cc6ba1967f21caaf6580402c1ee06517fcfd5319d5d25"
+    },
+    {
+      "path": "research/track_observability/results/baseline_audits.json",
+      "bytes": 893,
+      "sha256": "7f6cec425652423af76a2e354cc85b97cf859097b66d20758f08eff79ca16bdb"
+    },
+    {
+      "path": "research/track_observability/results/blind.csv",
+      "bytes": 505,
+      "sha256": "516d7c03425b7de8a28c023fb7311ea2bb2b50921f760184abfbbe194a7faa63"
+    },
+    {
+      "path": "research/track_observability/results/blind_fields.npz",
+      "bytes": 35458,
+      "sha256": "7950393b6ef7842e6b61fb224fb7f5ae7be7472c8d11d87bc8503a556ac0139e"
+    },
+    {
+      "path": "research/track_observability/results/design.csv",
+      "bytes": 10574,
+      "sha256": "2b7ca1de5319b29ee232ca92ddd5892a220415c29918308bd5a710a854b1423b"
+    },
+    {
+      "path": "research/track_observability/results/design_summary.csv",
+      "bytes": 218,
+      "sha256": "94bda2d9c57a43bcb548733ba49103e74dc6c21be300da2b651cca83bb490d94"
+    },
+    {
+      "path": "research/track_observability/results/dipole_robustness.csv",
+      "bytes": 8967,
+      "sha256": "d959236e7e2d1109c968f170b787103d8e8be16f5252692b6236f0e0c59d8dad"
+    },
+    {
+      "path": "research/track_observability/results/dipole_summary.csv",
+      "bytes": 1093,
+      "sha256": "d4ad395ec22f3f6e7135794d55515d9a8df00ebb9fffeeab487e4ca4ab20f35e"
+    },
+    {
+      "path": "research/track_observability/results/geometry.csv",
+      "bytes": 6538,
+      "sha256": "dce62437bf923738780d911420387486e04ad7055718c2b5ae16c5476f81a1dc"
+    },
+    {
+      "path": "research/track_observability/results/geometry_summary.csv",
+      "bytes": 386,
+      "sha256": "0cb070ba0e4c705591b931023d79879681e2f2467240622a60e4c457f63588e8"
+    },
+    {
+      "path": "research/track_observability/results/noise_observability.csv",
+      "bytes": 8456,
+      "sha256": "8fd3283b7ea29c4177a901b102c423b4ee8315e50727ed19336af4683696f85d"
+    },
+    {
+      "path": "research/track_observability/results/observability.csv",
+      "bytes": 1671,
+      "sha256": "1b1db98e98b58b209aac3287b39b6ab058420024bc43e1581ef9262880149c4e"
+    },
+    {
+      "path": "research/track_observability/results/paired_summary.json",
+      "bytes": 1263,
+      "sha256": "ad4724544d27ee7f3b9602909111eca8f9fc663476af43db166729ee67c91491"
+    },
+    {
+      "path": "research/track_observability/results/public.csv",
+      "bytes": 2974,
+      "sha256": "4f34e46abf2334a3ed11d7160b6e3eaa638795dde532550f8abd3221524f3b66"
+    },
+    {
+      "path": "research/track_observability/results/public_candidates.csv",
+      "bytes": 37293,
+      "sha256": "8b79355a52a9c22e2bb51f28a3346438a3b359057612883a47b02cd38ecc7e09"
+    },
+    {
+      "path": "research/track_observability/results/public_predictions.csv",
+      "bytes": 88356,
+      "sha256": "a5bffd01611e3578bf9d40a0db6c181d0fcc8a2865864571f56a88f02558764b"
+    },
+    {
+      "path": "research/track_observability/results/public_robustness.csv",
+      "bytes": 12048,
+      "sha256": "1c403d9ad02941b9acd9342246261a368cffdb04e8fc365c11b8f47404789d4c"
+    },
+    {
+      "path": "research/track_observability/results/public_robustness_predictions.csv",
+      "bytes": 321690,
+      "sha256": "da7c733bfc828287fa23b57edc5733ed849ecfc7a08d64c3c1f370e570d36e67"
+    },
+    {
+      "path": "research/track_observability/results/public_robustness_summary.csv",
+      "bytes": 2445,
+      "sha256": "8be3b7e380b303470f6b8c68f4164faf7ee4e0f776b66ddb319346b1b187f211"
+    },
+    {
+      "path": "research/track_observability/results/public_splits.json",
+      "bytes": 85125,
+      "sha256": "f8296e654112cf01bef56ba2b6b47b9155186cf328206fafd9862e5b8c841333"
+    },
+    {
+      "path": "research/track_observability/results/public_summary.csv",
+      "bytes": 514,
+      "sha256": "95522ed366898bbaee4a17f3dc7dbea539a3dccec5f622b2ca51f3332c503d5c"
+    },
+    {
+      "path": "research/track_observability/results/synthetic.csv",
+      "bytes": 45088,
+      "sha256": "844a8d00091d4777a7649eef2450018228794ddeae93bd0ed7281d3d84a50773"
+    },
+    {
+      "path": "research/track_observability/results/synthetic_candidates.csv",
+      "bytes": 309127,
+      "sha256": "0a1e4491a5a4ce497013871add8a37706f424abdf8a11f18174bfbfb3fb83d3e"
+    },
+    {
+      "path": "research/track_observability/results/synthetic_run.json",
+      "bytes": 92,
+      "sha256": "fa46b68991c220ad1a1d7d4431ecce157bea9cec6f41393d61c3f3d7a524428c"
+    },
+    {
+      "path": "research/track_observability/results/synthetic_summary.csv",
+      "bytes": 1462,
+      "sha256": "7cf8b1c981349256d228f71cb518985061e65795ef850961f9d0cb33c15424ff"
+    },
+    {
+      "path": "research/track_observability/scripts/fetch_data.py",
+      "bytes": 1302,
+      "sha256": "8c4d55c342e82cbc7ec2279f963427b8050908b6b61467f669fc628add79cc46"
+    },
+    {
+      "path": "research/track_observability/scripts/run_baseline_audits.py",
+      "bytes": 2512,
+      "sha256": "9d6e43946c4d3cc2bf6e5b5eb1be4c2d6125e138c697485d950445b07d8dce6a"
+    },
+    {
+      "path": "research/track_observability/scripts/run_design.py",
+      "bytes": 1333,
+      "sha256": "5bc157c19ea6e72d5873237a4c922f4cfb02fabd515f3abe4dd5c833ee388d26"
+    },
+    {
+      "path": "research/track_observability/scripts/run_geometry.py",
+      "bytes": 1295,
+      "sha256": "c3da5f007b37808f60745985af09178ec6cde52143ff75301171e304470dfe40"
+    },
+    {
+      "path": "research/track_observability/scripts/run_noise_audit.py",
+      "bytes": 1426,
+      "sha256": "1c6e59cbd37a4ab6c07cfd7fe872d3ba3ee9d0affa1898c07c7b9a0b016ef440"
+    },
+    {
+      "path": "research/track_observability/scripts/run_public.py",
+      "bytes": 3556,
+      "sha256": "4982b402258b5920a61f2e4e8413965e0947d2bb753a7a9393219301f2b527e7"
+    },
+    {
+      "path": "research/track_observability/scripts/run_robustness.py",
+      "bytes": 4817,
+      "sha256": "8ff0f94060c95290b392590007ee3e13ffe7f1a0c7b40ea5e43cd0f6f2333204"
+    },
+    {
+      "path": "research/track_observability/scripts/run_synthetic.py",
+      "bytes": 4889,
+      "sha256": "2ec6e0ecd0c4e3cc42a0542a5b21f788727c9d4521ba68b1c92c32070a704818"
+    },
+    {
+      "path": "research/track_observability/scripts/summarize.py",
+      "bytes": 8050,
+      "sha256": "ce02d6226569ad026f8f3d258bae5b1809e598d37c8de49b27df20ddf9b404e0"
+    },
+    {
+      "path": "research/track_observability/src/fields.py",
+      "bytes": 3964,
+      "sha256": "1513b754806b3d05bb5a8a03567fbcafbe0c9c6e3784eb42477a55dd7b9f2c90"
+    },
+    {
+      "path": "research/track_observability/src/geometry.py",
+      "bytes": 2544,
+      "sha256": "03f8d2e32387cc328b34f2fd71919bc61e91671ef054d72884534d23ad8c137a"
+    },
+    {
+      "path": "research/track_observability/src/kernels.py",
+      "bytes": 3742,
+      "sha256": "6c7cf96e73f32521df18cfc09731ff30f7e25c3ab1af0c37dfc9aed6a3a87c7c"
+    },
+    {
+      "path": "research/track_observability/tests/test_core.py",
+      "bytes": 4884,
+      "sha256": "11b77a82b71dde0563dcd597cd2546f07d3ab42b8cbb1a5b4208172f30bd9f54"
+    },
+    {
+      "path": "research/validate_results.py",
+      "bytes": 2190,
+      "sha256": "46dc67b81b9b487a7b5061be8b1949f6749f1e0f1652b026cb3e83849a10df3d"
+    },
+    {
+      "path": "research/verification.json",
+      "bytes": 811,
+      "sha256": "ac4689083daabaad1606616ab25696cbd5fbbcc4b45ff1c492ef27c7517aa589"
+    }
+  ]
+}

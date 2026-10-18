@@ -1,0 +1,39 @@
+{
+  "3d_df": {
+    "mse": 0.0005926419570282424,
+    "length": 0.8,
+    "ridge": 0.0001,
+    "mix": 0.0,
+    "cv_mse": 0.0029888526144119195
+  },
+  "3d_independent": {
+    "mse": 0.00029110187926370713,
+    "length": 0.4,
+    "ridge": 0.0001,
+    "mix": 0.0,
+    "cv_mse": 0.002764213092076523
+  },
+  "2d_slice_df": {
+    "mse": 0.018273996801466675,
+    "length": 0.8,
+    "ridge": 0.0001,
+    "mix": 0.0,
+    "cv_mse": 0.042823211502046286
+  },
+  "2d_slice_independent": {
+    "mse": 3.695919130244461e-05,
+    "length": 0.4,
+    "ridge": 0.0001,
+    "mix": 0.0,
+    "cv_mse": 0.00025497493167035847
+  },
+  "derivative_check": {
+    "full3d_max_abs": 2.4973045298359864e-09,
+    "slice_formula_max_error": 4.353259086542494e-09,
+    "slice_div_rms": 1.0632996438473252
+  },
+  "invariance": {
+    "permutation_max_abs": 2.930988785010413e-14,
+    "units_max_abs": 4.651834473179406e-14
+  }
+}

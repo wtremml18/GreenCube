@@ -1,0 +1,26 @@
+[
+  {
+    "file": "XY_train_gladfull.csv",
+    "url": "https://raw.githubusercontent.com/renatoberlinghieri/Helmholtz-GP/826cd40a2f0827857012a06e08390190b58bfe54/data/XY_train_gladfull.csv",
+    "sha256": "980d1f08484265fd910ed8ac44f553663185e79a6135bdedc24b1cf88c39bb2e",
+    "bytes": 60342
+  },
+  {
+    "file": "UV_train_gladfull.csv",
+    "url": "https://raw.githubusercontent.com/renatoberlinghieri/Helmholtz-GP/826cd40a2f0827857012a06e08390190b58bfe54/data/UV_train_gladfull.csv",
+    "sha256": "3ffe43ddc5cd3049802f1a8f01bc6f56bf72fe42488e31aaf0268616061ccd15",
+    "bytes": 60373
+  },
+  {
+    "file": "XY_train_laserfull.csv",
+    "url": "https://raw.githubusercontent.com/renatoberlinghieri/Helmholtz-GP/826cd40a2f0827857012a06e08390190b58bfe54/data/XY_train_laserfull.csv",
+    "sha256": "9ef830491743b7d01f96ccb29c84a071657c9bbc65f80b005161d5c3eb5676fc",
+    "bytes": 12240
+  },
+  {
+    "file": "UV_train_laserfull.csv",
+    "url": "https://raw.githubusercontent.com/renatoberlinghieri/Helmholtz-GP/826cd40a2f0827857012a06e08390190b58bfe54/data/UV_train_laserfull.csv",
+    "sha256": "959f2425be3813192abd54104bd6c2a2cab2a1307d174827642559bc66dc7598",
+    "bytes": 12472
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "transport_solenoidal_df_vs_independent": {
+    "n": 20,
+    "reference_mean": 0.00399911511905843,
+    "alternative_mean": 0.0036894556076674254,
+    "relative_reduction": 0.0774320073746495,
+    "relative_reduction_ci95": [
+      -0.01485385717395196,
+      0.1673409997121546
+    ],
+    "difference_ci95": [
+      -0.0007321325203471413,
+      5.500363971920483e-05
+    ]
+  },
+  "transport_expanding_df_vs_independent": {
+    "n": 20,
+    "reference_mean": 0.004206636182227716,
+    "alternative_mean": 0.08728962072318144,
+    "relative_reduction": -19.750456407892948,
+    "relative_reduction_ci95": [
+      -22.249302040537795,
+      -17.431113751577985
+    ],
+    "difference_ci95": [
+      0.07770492208297061,
+      0.088317788271551
+    ]
+  },
+  "geometry_correct_vs_straight": {
+    "n": 20,
+    "reference_mean": 0.09141491575086075,
+    "alternative_mean": 0.05089577211622087,
+    "relative_reduction": 0.44324433602355917,
+    "relative_reduction_ci95": [
+      0.3133688102728098,
+      0.5618623884767155
+    ],
+    "difference_ci95": [
+      -0.05319311072704724,
+      -0.02853655777387876
+    ]
+  },
+  "geometry_reversed_vs_straight": {
+    "n": 20,
+    "reference_mean": 0.09141491575086075,
+    "alternative_mean": 0.2651256082376808,
+    "relative_reduction": -1.9002445176479243,
+    "relative_reduction_ci95": [
+      -2.626818327708345,
+      -1.3777704808714002
+    ],
+    "difference_ci95": [
+      0.13591020183483438,
+      0.21786213266800528
+    ]
+  },
+  "dipole_dim2_noise0.0_df_vs_independent": {
+    "n": 10,
+    "reference_mean": 3.708627863654002e-05,
+    "alternative_mean": 0.02298710022395717,
+    "relative_reduction": -618.8276308399586,
+    "relative_reduction_ci95": [
+      -1720.2247355192394,
+      -393.5336556755846
+    ],
+    "difference_ci95": [
+      0.018749090828854384,
+      0.028346338220475418
+    ]
+  },
+  "dipole_dim2_noise0.05_df_vs_independent": {
+    "n": 10,
+    "reference_mean": 0.0008613497184816399,
+    "alternative_mean": 0.02146052950042205,
+    "relative_reduction": -23.915001467989093,
+    "relative_reduction_ci95": [
+      -33.78280426232589,
+      -18.627745149985824
+    ],
+    "difference_ci95": [
+      0.018331273477190844,
+      0.023817799900498413
+    ]
+  },
+  "dipole_dim3_noise0.0_df_vs_independent": {
+    "n": 10,
+    "reference_mean": 0.00101412633632928,
+    "alternative_mean": 0.00082175985120049,
+    "relative_reduction": 0.18968690412387612,
+    "relative_reduction_ci95": [
+      0.061227135310681156,
+      0.3584562537204382
+    ],
+    "difference_ci95": [
+      -0.00029071947477664003,
+      -6.468852901274827e-05
+    ]
+  },
+  "dipole_dim3_noise0.05_df_vs_independent": {
+    "n": 10,
+    "reference_mean": 0.0031602953657815,
+    "alternative_mean": 0.00237014739813081,
+    "relative_reduction": 0.250023455467523,
+    "relative_reduction_ci95": [
+      0.1400806009952548,
+      0.36564937661597724
+    ],
+    "difference_ci95": [
+      -0.00127130351739712,
+      -0.000365222404528798
+    ]
+  },
+  "fluid_support_matched": {
+    "mean_line_mse": 0.6949954895226986,
+    "mean_replace8_mse": 0.6554062354896308,
+    "relative_reduction": 0.05696332512928459,
+    "per_frame_reduction_range": [
+      0.02592666615005701,
+      0.0844981872182482
+    ],
+    "scope": "Four selected frames of one simulation; five sampling/noise seeds each. No event-level CI."
+  }
+}
