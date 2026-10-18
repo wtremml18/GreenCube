@@ -2,6 +2,8 @@
 
 Verified 2026-10-18. **Yes: there are downloadable sounding-rocket measurements and satellite/radar conjunction data directly connected to Lynch's research.** The main entry point is [her Dartmouth publication-data archive](https://rcweb.dartmouth.edu/LynchK/).
 
+**Later application:** [Executable reconstructions and results](../auroral_reconstruction/RESULTS.md) now use these rocket data and six PFISR/DASC events. The application also decodes and verifies the rocket timestamps and source notes. The text below preserves the earlier availability audit.
+
 This follow-up verifies availability and inspects actual files. It does not yet claim a reconstruction result on auroral observations. Raw downloads are ignored by Git; source URLs and hashes are recorded in `sources.json`. Hashes identify the bytes retrieved, rather than a publisher-signed release. The numerical summary is in [results/schema_audit.json](results/schema_audit.json).
 
 ## Best starting point: ISINGLASS, March 2, 2017

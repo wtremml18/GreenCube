@@ -26,5 +26,16 @@
   "static_check": {
     "command": "ruff check --select F research",
     "exit_code": 0
+  },
+  "auroral_application": {
+    "date": "2026-10-18",
+    "unit_tests_passed": 9,
+    "experiment_exit_code": 0,
+    "source_hashes_verified": 17,
+    "source_bytes": 576639179,
+    "primary_prediction_rows": 1442,
+    "event_model_summaries": 49,
+    "scope": "Processed-bin/same-track holdouts; independent-track accuracy not established",
+    "details": "auroral_reconstruction/results/verification.json"
   }
 }

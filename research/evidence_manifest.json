@@ -20,13 +20,13 @@
     },
     {
       "path": "research/README.md",
-      "bytes": 4071,
-      "sha256": "ea529eed324af1468a32df06e0cfa9de033931d50f57a456b4cb4025dbf20611"
+      "bytes": 4781,
+      "sha256": "d2c69b3d540de44af3b44d7e88fd2cd6e1e8e7917980471b85d11c116dc75977"
     },
     {
       "path": "research/RESEARCH_FINDINGS.md",
-      "bytes": 15387,
-      "sha256": "ba6598b35f155187e07328e9cf7a14bfe0c798fb0b088e9a39cd574ea4c045dd"
+      "bytes": 15778,
+      "sha256": "6e2085ac009922eea17cae5d04a4611a97591347fab9d0c9e7703b299045ed73"
     },
     {
       "path": "research/auroral_data/.gitignore",
@@ -35,8 +35,8 @@
     },
     {
       "path": "research/auroral_data/README.md",
-      "bytes": 9162,
-      "sha256": "c5aeb0192cdff892684441b1fd3c6884faf3b3c0851276ee1a4a33be727dc73b"
+      "bytes": 9457,
+      "sha256": "895f2b906b6eef75c67bf7ed0f6afed4bfbba23d7f8000eb5fc9a945f8ad1897"
     },
     {
       "path": "research/auroral_data/audit.py",
@@ -57,6 +57,166 @@
       "path": "research/auroral_data/sources.json",
       "bytes": 1613,
       "sha256": "922505e6116514dbc64cfc1538542e6eb003556a20001c27073ba3d2a9c9887e"
+    },
+    {
+      "path": "research/auroral_reconstruction/.gitignore",
+      "bytes": 19,
+      "sha256": "ff5a734fd7026236a1bc86191d9c0f59828897a7cf9da6aba347bd0fbeeb1040"
+    },
+    {
+      "path": "research/auroral_reconstruction/README.md",
+      "bytes": 10171,
+      "sha256": "880cfb3f2c19fb070a2fa37e56524eb568916beb951e74aaece42ef76dd65ea4"
+    },
+    {
+      "path": "research/auroral_reconstruction/RESULTS.md",
+      "bytes": 7124,
+      "sha256": "6b2a043219e1c2d2fff94d44ab2883ba2a59d8edb5d81f130e0bb244f9482504"
+    },
+    {
+      "path": "research/auroral_reconstruction/data.py",
+      "bytes": 8712,
+      "sha256": "afc9cf89a1129bb3a6a6e74e1024bcc7660324389dec4bd3c0c2b41b294110b4"
+    },
+    {
+      "path": "research/auroral_reconstruction/design.json",
+      "bytes": 3023,
+      "sha256": "66365440afb9971e41f3be5354a0f26c3d86b0b063afbd0b7cd3537c66279eea"
+    },
+    {
+      "path": "research/auroral_reconstruction/fetch.py",
+      "bytes": 1199,
+      "sha256": "010263f44096a172cba6a2b4113ac1a15c4090043274b4b0e30b5310f932969d"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/20230210_holdouts.png",
+      "bytes": 143009,
+      "sha256": "46056af7cc27b3874c9bc64327dbb07655fa4d3afde5393663217cf93dbb7148"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/20230210_maps.pdf",
+      "bytes": 274666,
+      "sha256": "3cba6adf390c7ae7225926e15dcc83f9fd336bb8d78032d6cb6a6b41e3e1a635"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/20230210_maps.png",
+      "bytes": 876121,
+      "sha256": "355cf7827871f8b3a3dae181250309716922ca98dfc6e2f885afdcfc42e7d30f"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/20230210_uncertainty.png",
+      "bytes": 97535,
+      "sha256": "a9970cacf42b445cfba911f809ac91feee55150970bbd57d2d5e0e80d684c396"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/actual_auroral_photographs.png",
+      "bytes": 1531770,
+      "sha256": "65c41bff99077fa17f2b4f03d479eb0b3b8ed7f47acf4055c4f49db3b8a1211f"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/isinglass_holdouts.png",
+      "bytes": 213569,
+      "sha256": "7a0898927c983cbf67f81c9f269e71249438516894f2c41d16f879db6619134f"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/isinglass_maps.pdf",
+      "bytes": 120134,
+      "sha256": "b8bb31c8da6d88d0683a938983e8479053cbbd1eb5738f08da4df6501cf70b6f"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/isinglass_maps.png",
+      "bytes": 489238,
+      "sha256": "9bbbc2e37a808373f4d37497c914172b1103a494db4091dfa91a1d63b867b05c"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/isinglass_uncertainty.png",
+      "bytes": 98407,
+      "sha256": "90f99879d9beff65e2c0dc01433bc1647ba9d6c5703edc019fa3ff12e15c4bbc"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/radar_comparison.png",
+      "bytes": 239974,
+      "sha256": "3e9458f4bc0d3f9be8cbaaac5c353d3f4b87f4dd4aa7637f544080d58f202239"
+    },
+    {
+      "path": "research/auroral_reconstruction/figures/six_event_geometry.png",
+      "bytes": 830913,
+      "sha256": "80601229e5b0a6cd00956df4f30c3528632f7abb91a205c416f01d9330124545"
+    },
+    {
+      "path": "research/auroral_reconstruction/model.py",
+      "bytes": 5179,
+      "sha256": "b8627ab4f42f2d345ff0d9a33766508084d0db5f056d04085d1b58739964f8fe"
+    },
+    {
+      "path": "research/auroral_reconstruction/requirements.txt",
+      "bytes": 88,
+      "sha256": "e8541c80420b14383f3ccb2a2d1e8f3cacae2e2ff0f8ebdd4fdc973f8074544b"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/20230210_field_map.npz",
+      "bytes": 31052,
+      "sha256": "f5ab76b90359a7a81bc70cec7fffd1acafb7db1e90af73ee8abb3c92134c60db"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/data_metadata.json",
+      "bytes": 7811,
+      "sha256": "db24a6ec9017761e535543d0f40ca1644fbe075ad4a4fa47612acd590042cf95"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/event_metrics.csv",
+      "bytes": 4677,
+      "sha256": "418acc933bea3248bd886f800f77d944cf343acd33af8fe8afff3d0fba700075"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/isinglass_field_map.npz",
+      "bytes": 21811,
+      "sha256": "dad0c200dc5f97554c9633b56a8e10970033b4484cc5f57f93d88e231a1daf0f"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/predictions.csv",
+      "bytes": 287388,
+      "sha256": "e341563fe1aba0dc990dcf21cabc2bee2014743a34cc532e8e4b41d00ff14059"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/run.log",
+      "bytes": 3135,
+      "sha256": "c6f7627b6b773ce0035d77eb4dd05d26392ecf7744207ea0ac639660e7a3f174"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/selections.json",
+      "bytes": 95537,
+      "sha256": "60d1b09865d571a7af13ba398cbfcd4170cce01b5c4910790a0a639009e08b84"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/sensitivity.csv",
+      "bytes": 3604,
+      "sha256": "a213ee60e730f653b4c4ee71ddd4447999724a73fdf185397b32928409f5db09"
+    },
+    {
+      "path": "research/auroral_reconstruction/results/verification.json",
+      "bytes": 659,
+      "sha256": "aa7dcfd173a5ff0e50afdf2959484ca3ccb46b51db98e707338693b9af31fdcb"
+    },
+    {
+      "path": "research/auroral_reconstruction/run.py",
+      "bytes": 13098,
+      "sha256": "f4671c52ff9afec0ad79f68623e8bb523747269b46f41e5a44a487a05fc078ef"
+    },
+    {
+      "path": "research/auroral_reconstruction/sources.json",
+      "bytes": 4621,
+      "sha256": "ac24e921deeae827fa0aa25b85707e7d3a1f47dfc37adfb2e922b22a733b745f"
+    },
+    {
+      "path": "research/auroral_reconstruction/summarize.py",
+      "bytes": 11434,
+      "sha256": "421b71451094c5972596c6c4c00f0c93154bf09f7d5911c5ca66c0c076635e59"
+    },
+    {
+      "path": "research/auroral_reconstruction/test_model.py",
+      "bytes": 4485,
+      "sha256": "49838f33f99adbc458c8fdd3f46e21a0a5190e17cb4a8e179bc25816c3a944c3"
     },
     {
       "path": "research/gaussian_transport/.gitignore",
@@ -480,8 +640,8 @@
     },
     {
       "path": "research/verification.json",
-      "bytes": 811,
-      "sha256": "ac4689083daabaad1606616ab25696cbd5fbbcc4b45ff1c492ef27c7517aa589"
+      "bytes": 1223,
+      "sha256": "05910cd82268e37c5dc5d3a414d81017faacf2abc2004397878aaac48788aad2"
     }
   ]
 }

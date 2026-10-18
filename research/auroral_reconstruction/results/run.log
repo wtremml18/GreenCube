@@ -1,0 +1,57 @@
+Fitting 20230210 12 measurements
+Fitting 20230212 14 measurements
+Fitting 20230304a 11 measurements
+Fitting 20230304b 12 measurements
+Fitting 20230314 14 measurements
+Fitting 20230319 13 measurements
+Fitting isinglass 130 measurements
+    event                model   n       rmse  coverage95
+ 20230210             constant  12  80.274539         NaN
+ 20230210        electrostatic  12  73.670295    0.916667
+ 20230210        image_aligned  12  73.760456    0.916667
+ 20230210         image_linear  12  73.798961    0.916667
+ 20230210       image_reversed  12  74.464130    0.916667
+ 20230210          independent  12  74.784674    0.916667
+ 20230210 straight_anisotropic  12  74.854742    0.916667
+ 20230212             constant  14  34.581415         NaN
+ 20230212        electrostatic  14  38.518137    0.857143
+ 20230212        image_aligned  14  38.491586    0.857143
+ 20230212         image_linear  14  38.512273    0.857143
+ 20230212       image_reversed  14  34.517761    0.857143
+ 20230212          independent  14  30.993777    0.857143
+ 20230212 straight_anisotropic  14  38.121817    0.857143
+20230304a             constant  11  19.583379         NaN
+20230304a        electrostatic  11  20.175977    0.727273
+20230304a        image_aligned  11  18.520501    0.727273
+20230304a         image_linear  11  17.687499    0.727273
+20230304a       image_reversed  11  19.570680    1.000000
+20230304a          independent  11  20.674793    1.000000
+20230304a straight_anisotropic  11  17.373112    0.818182
+20230304b             constant  12  19.285463         NaN
+20230304b        electrostatic  12  51.793336    0.916667
+20230304b        image_aligned  12  39.906689    0.916667
+20230304b         image_linear  12  37.183213    1.000000
+20230304b       image_reversed  12  48.459343    0.916667
+20230304b          independent  12  19.200438    1.000000
+20230304b straight_anisotropic  12  45.681454    0.916667
+ 20230314             constant  14  16.240779         NaN
+ 20230314        electrostatic  14  12.925599    1.000000
+ 20230314        image_aligned  14  10.952642    1.000000
+ 20230314         image_linear  14  12.127195    1.000000
+ 20230314       image_reversed  14  12.680905    1.000000
+ 20230314          independent  14  12.648277    1.000000
+ 20230314 straight_anisotropic  14  11.908555    1.000000
+ 20230319             constant  13  36.895169         NaN
+ 20230319        electrostatic  13  19.680297    0.923077
+ 20230319        image_aligned  13  18.907696    0.923077
+ 20230319         image_linear  13  17.455694    1.000000
+ 20230319       image_reversed  13  22.105524    0.769231
+ 20230319          independent  13  14.161936    1.000000
+ 20230319 straight_anisotropic  13  17.690077    1.000000
+isinglass             constant 130 720.995369         NaN
+isinglass        electrostatic 130 338.388340    0.607692
+isinglass        image_aligned 130 358.075670    0.592308
+isinglass         image_linear 130 360.466083    0.607692
+isinglass       image_reversed 130 340.718301    0.584615
+isinglass          independent 130 432.086067    0.523077
+isinglass straight_anisotropic 130 348.628588    0.592308
