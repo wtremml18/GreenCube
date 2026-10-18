@@ -10,8 +10,8 @@
   "files": [
     {
       "path": "research/LITERATURE.md",
-      "bytes": 5307,
-      "sha256": "47146a90d908e6eda837c095eb3257fa9bfeff871def3de883e392d7abed1670"
+      "bytes": 6249,
+      "sha256": "03e6da77be2d9e0430cc1282f2d2e178375ecbe0e0eb367d5d73a8867b4825d3"
     },
     {
       "path": "research/METHODS.md",
@@ -20,13 +20,43 @@
     },
     {
       "path": "research/README.md",
-      "bytes": 3910,
-      "sha256": "d157777bf2a84f2f5a0638a54dbe9b09d03395c0a78a1019912c0da02ca022e4"
+      "bytes": 4071,
+      "sha256": "ea529eed324af1468a32df06e0cfa9de033931d50f57a456b4cb4025dbf20611"
     },
     {
       "path": "research/RESEARCH_FINDINGS.md",
-      "bytes": 14969,
-      "sha256": "499e9f5fa7373f39d13b6c35315785af4eef116d200e700209b1fe9b4124b9b6"
+      "bytes": 15387,
+      "sha256": "ba6598b35f155187e07328e9cf7a14bfe0c798fb0b088e9a39cd574ea4c045dd"
+    },
+    {
+      "path": "research/auroral_data/.gitignore",
+      "bytes": 20,
+      "sha256": "ed1bd26cf073209a9244cb06b0bf85c49b8ff42860f26f2369f9df988082203e"
+    },
+    {
+      "path": "research/auroral_data/README.md",
+      "bytes": 9162,
+      "sha256": "c5aeb0192cdff892684441b1fd3c6884faf3b3c0851276ee1a4a33be727dc73b"
+    },
+    {
+      "path": "research/auroral_data/audit.py",
+      "bytes": 5207,
+      "sha256": "7ac49e959add88c01527072d59628fccf7d655626b3e38b70879cf9b2e65ad12"
+    },
+    {
+      "path": "research/auroral_data/requirements.txt",
+      "bytes": 71,
+      "sha256": "6e18f2265d94f6d5e86f3807f9e072ef7a9a7e94412f7f1436756a11724bb620"
+    },
+    {
+      "path": "research/auroral_data/results/schema_audit.json",
+      "bytes": 6451,
+      "sha256": "241e3e6a703f4f547f0b5a055e7f50bddb994a304bee2aa4eaa28bc2d1cfc3e7"
+    },
+    {
+      "path": "research/auroral_data/sources.json",
+      "bytes": 1613,
+      "sha256": "922505e6116514dbc64cfc1538542e6eb003556a20001c27073ba3d2a9c9887e"
     },
     {
       "path": "research/gaussian_transport/.gitignore",

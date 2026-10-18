@@ -1,0 +1,280 @@
+{
+  "scope": "Data availability, schema and preliminary quality inspection only; no auroral reconstruction validated.",
+  "isinglass": {
+    "samples": 195,
+    "strictly_increasing_time": true,
+    "numeric_columns": {
+      "time": {
+        "finite": 195,
+        "min": 133.99483219419866,
+        "max": 534.1520487017003
+      },
+      "lat_100km": {
+        "finite": 195,
+        "min": 65.85796382535939,
+        "max": 67.5853040974034
+      },
+      "lon_100km": {
+        "finite": 195,
+        "min": 212.8139793287768,
+        "max": 213.346
+      },
+      "mlat": {
+        "finite": 195,
+        "min": 66.12099918165285,
+        "max": 67.74062474268092
+      },
+      "mlon": {
+        "finite": 195,
+        "min": 257.23235866077096,
+        "max": 258.8534434957561
+      },
+      "v_geog_east": {
+        "finite": 195,
+        "min": -1799.7377291197947,
+        "max": 73.82874972437091
+      },
+      "v_geog_north": {
+        "finite": 195,
+        "min": -837.1120543695635,
+        "max": 1178.8055869903228
+      },
+      "v_geom_east": {
+        "finite": 195,
+        "min": -2139.407930895686,
+        "max": 341.51233290322125
+      },
+      "v_geom_north": {
+        "finite": 195,
+        "min": -751.3896232376283,
+        "max": 233.0896449420834
+      }
+    },
+    "uncertainty": "No numerical measurement-error array among inspected columns. MATLAB datetime/comment objects are not decoded by this loader."
+  },
+  "swarm": {
+    "A": {
+      "records": 89537,
+      "first_utc": "2023-02-10T04:25:51.225000000",
+      "last_utc": "2023-02-10T16:52:06.225000000",
+      "window": "2023-02-10T09:51:27Z +/-120 s; time selection only, not a spatial conjunction mask",
+      "window_records": 480,
+      "quality_bit_pass_counts": {
+        "Vixh": 0,
+        "Vixv": 0,
+        "Viy": 292,
+        "Viz": 0
+      },
+      "variables": [
+        "Timestamp",
+        "Latitude",
+        "Longitude",
+        "Radius",
+        "QDLatitude",
+        "MLT",
+        "Vixh",
+        "Vixh_error",
+        "Vixv",
+        "Vixv_error",
+        "Viy",
+        "Viy_error",
+        "Viz",
+        "Viz_error",
+        "VsatN",
+        "VsatE",
+        "VsatC",
+        "Ehx",
+        "Ehy",
+        "Ehz",
+        "Evx",
+        "Evy",
+        "Evz",
+        "Bx",
+        "By",
+        "Bz",
+        "Vicrx",
+        "Vicry",
+        "Vicrz",
+        "Quality_flags",
+        "Calibration_flags"
+      ],
+      "velocity_frame": "Cross-track horizontal ion drift from horizontal TII sensor in satellite-track coordinates.",
+      "velocity_units": "m/s",
+      "interpretation": "Bit pass is one documented quality criterion, not a complete validity mask; release notes/calibration and error estimates still require review."
+    },
+    "C": {
+      "records": 21871,
+      "first_utc": "2023-02-10T09:07:51.225000000",
+      "last_utc": "2023-02-10T12:10:06.225000000",
+      "window": "2023-02-10T09:51:27Z +/-120 s; time selection only, not a spatial conjunction mask",
+      "window_records": 480,
+      "quality_bit_pass_counts": {
+        "Vixh": 0,
+        "Vixv": 0,
+        "Viy": 0,
+        "Viz": 0
+      },
+      "variables": [
+        "Timestamp",
+        "Latitude",
+        "Longitude",
+        "Radius",
+        "QDLatitude",
+        "MLT",
+        "Vixh",
+        "Vixh_error",
+        "Vixv",
+        "Vixv_error",
+        "Viy",
+        "Viy_error",
+        "Viz",
+        "Viz_error",
+        "VsatN",
+        "VsatE",
+        "VsatC",
+        "Ehx",
+        "Ehy",
+        "Ehz",
+        "Evx",
+        "Evy",
+        "Evz",
+        "Bx",
+        "By",
+        "Bz",
+        "Vicrx",
+        "Vicry",
+        "Vicrz",
+        "Quality_flags",
+        "Calibration_flags"
+      ],
+      "velocity_frame": "Cross-track horizontal ion drift from horizontal TII sensor in satellite-track coordinates.",
+      "velocity_units": "m/s",
+      "interpretation": "Bit pass is one documented quality criterion, not a complete validity mask; release notes/calibration and error estimates still require review."
+    }
+  },
+  "pfisr": {
+    "Time/UnixTime": {
+      "shape": [
+        141,
+        2
+      ],
+      "units": "Seconds",
+      "title": "UnixTime"
+    },
+    "VvelsMagCoords/Velocity": {
+      "shape": [
+        141,
+        20,
+        3
+      ],
+      "units": "m/s",
+      "title": "Plasma Drift Velocity"
+    },
+    "VvelsMagCoords/CovarianceV": {
+      "shape": [
+        141,
+        20,
+        3,
+        3
+      ],
+      "units": "(m/s)^2",
+      "title": "Velocity Covariance Matrix"
+    },
+    "VvelsGeoCoords/Velocity": {
+      "shape": [
+        141,
+        24,
+        20,
+        3
+      ],
+      "units": "m/s",
+      "title": "Plasma Drift Velocity"
+    },
+    "VvelsGeoCoords/CovarianceV": {
+      "shape": [
+        141,
+        24,
+        20,
+        3,
+        3
+      ],
+      "units": "(m/s)^2",
+      "title": "Velocity Covariance Matrix"
+    },
+    "VvelsGeoCoords/ElectricField": {
+      "shape": [
+        141,
+        24,
+        20,
+        3
+      ],
+      "units": "V/m",
+      "title": "Convection Electric Field"
+    },
+    "VvelsGeoCoords/CovarianceE": {
+      "shape": [
+        141,
+        24,
+        20,
+        3,
+        3
+      ],
+      "units": "(V/m)^2",
+      "title": "Electric Field Covariance Matrix"
+    }
+  },
+  "events": {
+    "spacecraft_event_rows": 8,
+    "distinct_conjunction_times": 6,
+    "rows": [
+      {
+        "id": "02",
+        "utc": "2023-02-10T09:51:27Z",
+        "spacecraft": "A"
+      },
+      {
+        "id": "03",
+        "utc": "2023-02-10T09:51:27Z",
+        "spacecraft": "C"
+      },
+      {
+        "id": "04",
+        "utc": "2023-02-12T10:22:11Z",
+        "spacecraft": "C"
+      },
+      {
+        "id": "05",
+        "utc": "2023-03-04T07:30:12Z",
+        "spacecraft": "C"
+      },
+      {
+        "id": "06",
+        "utc": "2023-03-04T10:13:49Z",
+        "spacecraft": "B"
+      },
+      {
+        "id": "09",
+        "utc": "2023-03-14T06:49:07Z",
+        "spacecraft": "A"
+      },
+      {
+        "id": "10",
+        "utc": "2023-03-14T06:49:07Z",
+        "spacecraft": "C"
+      },
+      {
+        "id": "11",
+        "utc": "2023-03-19T08:23:30Z",
+        "spacecraft": "B"
+      }
+    ]
+  },
+  "boundaries": {
+    "top_level_keys": [
+      "#refs#",
+      "#subsystem#",
+      "bound"
+    ],
+    "format": "MATLAB v7.3/HDF5 with object references; a schema listing is not a decoded physical boundary."
+  }
+}

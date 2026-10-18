@@ -6,6 +6,8 @@ The thesis contains a useful foundation, but the defensible next contribution is
 
 There is promising material here, but these results do not yet establish a submission-ready novel method or an independently validated auroral application. In particular, the 4D Gaussian connection is already active prior art: FreeGave (CVPR 2025) and LagrangianSplats (SIGGRAPH 2026) use divergence-free Gaussian motion. The latter directly combines divergence-free kernels and Gaussian advection. See the [literature audit](LITERATURE.md).
 
+**Follow-up:** Public Lynch-group auroral inputs have now been located and inspected, including 195 ISINGLASS flow samples and Swarm/PFISR files. The [auroral data audit](auroral_data/README.md) adds close 2024–2025 application predecessors omitted from the initial search. This supplies a concrete route to application validation; it does not change the benchmark outcomes or establish an auroral accuracy result.
+
 ## What was recovered and built
 
 The recovered thesis is Will Tremml's *Methods of Approximating Divergence-Free Vector Fields for Ionospheric Data*, Dartmouth, June 5, 2018. It was read from the original 77-page PDF, rather than inferred only from the supplied review. The [thesis assessment](track_observability/notes/thesis_review.md) distinguishes established contributions, mathematical corrections and missing validation.

@@ -21,3 +21,12 @@ Checked against primary publications or official project sources on 2026-10-18. 
 The potential contribution is a carefully validated **application-specific observability and geometry-sensitivity study**. The nullspace/SVD calculation, generalized eigenvalue sensitivity calculation, Piola transform, covariance transport, and scalar aperture ambiguity are established mathematical tools. Packaging them does not by itself establish a publishable novel algorithm.
 
 A convincing next paper would require a clearly scoped new claim and stronger application evidence: independent auroral tracks/events with independently measured morphology, or image-based fluid reconstruction with controlled geometry/appearance uncertainty and known velocity truth. The present work has not reached that point.
+
+## Follow-up: Lynch-group application predecessors and verified data
+
+The targeted search above omitted two particularly close application sources, now added after locating and opening their public data:
+
+- [van Irsel, Lynch, Mule & Zettergren (2024)](https://doi.org/10.1029/2024JA032722), *Generation of Top-Boundary Conditions for 3D Ionospheric Models Constrained by Auroral Imagery and Plasma Flow Data*. A required geometry/electrostatic reconstruction comparator.
+- [van Irsel et al. (2025)](https://doi.org/10.1029/2025JA034311), *Current Closure and Joule Heating in Data-Driven 3-D Auroral Arc Simulations*. Public Swarm-over-Poker inputs and simulations coauthored by Lynch.
+
+See the [data audit](auroral_data/README.md) for directly verified files and limitations. These references further restrict novelty claims. Public data are available; the missing step is a validated application comparison, not merely finding an archive.

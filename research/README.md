@@ -4,6 +4,7 @@ Start with **[RESEARCH_FINDINGS.md](RESEARCH_FINDINGS.md)** for conclusions, num
 
 - [`track_observability`](track_observability): independent Python kernel implementation, dipole audit, track ambiguity, finite-basis observability, arc geometry and public ocean-data experiments.
 - [`gaussian_transport`](gaussian_transport): Gaussian position/covariance transport, exact density ambiguity, and sparse-velocity experiments on public ScalarSyn fluid volumes.
+- [`auroral_data`](auroral_data): verified public Lynch-group ISINGLASS and Swarm-over-Poker inputs, source references, and an acquisition/schema/quality audit.
 - [Thesis review](track_observability/notes/thesis_review.md), [literature and novelty audit](LITERATURE.md), and [mathematical specification](METHODS.md).
 
 All new work is isolated here. Existing acquisition/calibration code is unchanged. The original DivFree2/DivFree3 MATLAB implementation was not recovered, so these are **new experiments, not a reproduction of the thesis's numerical tables**. Private thesis/email files are excluded. Public raw datasets are downloaded separately and ignored by Git; checksums and extraction instructions are tracked.
