@@ -1,0 +1,12 @@
+{
+  "tag": "random_n128_s42_w1_e200",
+  "method": "random",
+  "budget": 128,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_random_n128_s42_w1_e200_2026-10-18_23-13-15",
+  "train_wall_seconds": 55.940898559987545,
+  "evaluation_seconds": 8.908449637994636,
+  "basis_file": "basis_random_128.json"
+}

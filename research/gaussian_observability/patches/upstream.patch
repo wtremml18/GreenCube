@@ -1,0 +1,81 @@
+diff --git a/velocity_evaluation/evaluate.py b/velocity_evaluation/evaluate.py
+index a57450a..32245f9 100644
+--- a/velocity_evaluation/evaluate.py
++++ b/velocity_evaluation/evaluate.py
+@@ -1629,7 +1629,7 @@ def evaluate_sliding_window_window(args, savedir: str, start_frame: int, end_fra
+ 	
+ 	frame_to_train_cameras = {}
+ 	frame_to_test_cameras = {}
+-	for t in range(process_frame_num):
++	for t in range(total_frame_num):
+ 		frame_to_train_cameras[t] = []
+ 		frame_to_test_cameras[t] = []
+ 	
+@@ -1640,7 +1640,7 @@ def evaluate_sliding_window_window(args, savedir: str, start_frame: int, end_fra
+ 			else:
+ 				frame_idx = 0
+ 			frame_idx = max(0, min(frame_idx, total_frame_num - 1))
+-			if frame_idx >= process_frame_num:
++			if frame_idx >= total_frame_num:
+ 				continue
+ 			frame_to_train_cameras[frame_idx].append((cam_idx, cam))
+ 	
+@@ -1651,7 +1651,7 @@ def evaluate_sliding_window_window(args, savedir: str, start_frame: int, end_fra
+ 			else:
+ 				frame_idx = 0
+ 			frame_idx = max(0, min(frame_idx, total_frame_num - 1))
+-			if frame_idx >= process_frame_num:
++			if frame_idx >= total_frame_num:
+ 				continue
+ 			frame_to_test_cameras[frame_idx].append((cam_idx, cam))
+ 	
+diff --git a/velocity_training/train.py b/velocity_training/train.py
+index 3ddb9e2..592ba8a 100644
+--- a/velocity_training/train.py
++++ b/velocity_training/train.py
+@@ -863,7 +863,7 @@ def _setup_velocity_models_with_individual_optimizers(args, device, scale, start
+ 			vel_schedulers[global_frame_idx] = existing_schedulers[global_frame_idx]
+ 		else:
+ 			scheduler = torch.optim.lr_scheduler.ExponentialLR(
+-				vel_optimizers[global_frame_idx], gamma, verbose=True
++				vel_optimizers[global_frame_idx], gamma
+ 			)
+ 			vel_schedulers[global_frame_idx] = scheduler
+ 	
+@@ -971,7 +971,7 @@ def _setup_velocity_models(args, device, scale, start_frame, end_frame, dt):
+ 	
+ 	vel_optimizer = torch.optim.Adam(vel_models.parameters(), lr=args.lrate_vel)
+ 	gamma = 1e-2 ** (1.0 / args.num_epochs)
+-	vel_scheduler = torch.optim.lr_scheduler.ExponentialLR(vel_optimizer, gamma, verbose=True)
++	vel_scheduler = torch.optim.lr_scheduler.ExponentialLR(vel_optimizer, gamma)
+ 	
+ 	# Pre-generate grid points
+ 	min_corner = np.zeros(3)
+@@ -2239,6 +2239,18 @@ def train_velocity_model_with_gaussian(args, savedir=None, scale: int = 1, gauss
+ 				
+ 				# Backward pass for direct velocity losses
+ 				direct_vel_loss = lambda_regular * reg_loss + lambda_nse * ns_loss
++				# GreenCube: optional sparse synthetic velocity instrument readings.
++				if getattr(args, 'gc_sensor_file', '') and getattr(args, 'gc_sensor_weight', 0) > 0:
++					if not hasattr(args, '_gc_sensors'):
++						with open(args.gc_sensor_file) as sensor_stream:
++							args._gc_sensors = json.load(sensor_stream)
++					sensor_frame = str(start_frame + t - 1)
++					if sensor_frame in args._gc_sensors:
++						record = args._gc_sensors[sensor_frame]
++						locations = torch.tensor(record['xyz'], dtype=torch.float32, device=device)
++						readings = torch.tensor(record['velocity'], dtype=torch.float32, device=device)
++						sensor_loss = F.mse_loss(vel_models[t-1](locations), readings)
++						direct_vel_loss = direct_vel_loss + args.gc_sensor_weight * sensor_loss
+ 				direct_vel_loss.backward(retain_graph=True)
+ 				
+ 				# Accumulate losses for logging
+@@ -3367,7 +3379,7 @@ def train_velocity_model_sliding_window(args, savedir=None, scale: int = 1, gaus
+ 						total_epochs = num_windows * args.num_epochs
+ 						gamma = 0.01 ** (1.0 / total_epochs)
+ 						scheduler = torch.optim.lr_scheduler.ExponentialLR(
+-							initial_velocity_optimizers_dict[vel_frame_idx], gamma, verbose=False
++							initial_velocity_optimizers_dict[vel_frame_idx], gamma
+ 						)
+ 						scheduler.load_state_dict(scheduler_state)
+ 						initial_velocity_schedulers_dict[vel_frame_idx] = scheduler

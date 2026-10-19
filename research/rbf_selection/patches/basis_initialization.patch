@@ -1,0 +1,32 @@
+--- a/velocity_training/train.py
++++ b/velocity_training/train.py
+@@ -832,6 +832,14 @@
+ 	n_kernels_full = int(args.kernel_num)
+ 	n_kernels = max(1, int(round(n_kernels_full / (s ** 3))))
+ 	init_centers, h = generate_kernels(lengths, n_kernels)
++	# GreenCube: externally selected basis, with identical subsequent training.
++	if getattr(args, 'gc_basis_file', ''):
++		with open(args.gc_basis_file) as basis_stream:
++			basis = json.load(basis_stream)
++		init_centers = np.asarray(basis['centers'], dtype=np.float32)
++		h = np.asarray(basis['radii'], dtype=np.float32)
++		assert init_centers.shape == (len(h), 3) and np.all(h > 0)
++		print(f"[GreenCube basis] {len(h)} selected kernels")
+ 	
+ 	vel_models = nn.ModuleList()
+ 	vel_optimizers = {}
+@@ -963,6 +971,14 @@
+ 	n_kernels_full = int(args.kernel_num)
+ 	n_kernels = max(1, int(round(n_kernels_full / (s ** 3))))
+ 	init_centers, h = generate_kernels(lengths, n_kernels)
++	# GreenCube: externally selected basis, with identical subsequent training.
++	if getattr(args, 'gc_basis_file', ''):
++		with open(args.gc_basis_file) as basis_stream:
++			basis = json.load(basis_stream)
++		init_centers = np.asarray(basis['centers'], dtype=np.float32)
++		h = np.asarray(basis['radii'], dtype=np.float32)
++		assert init_centers.shape == (len(h), 3) and np.all(h > 0)
++		print(f"[GreenCube basis] {len(h)} selected kernels")
+ 	
+ 	vel_models = nn.ModuleList([
+ 		TiDFRBF(WendlandC4(), init_centers, h, device=device) 

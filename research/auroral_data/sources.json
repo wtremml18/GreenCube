@@ -1,0 +1,38 @@
+[
+  {
+    "file": "flow_data_ig.mat",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2024_vanirsel_jgr/data/supplementary/flow_data_ig.mat",
+    "bytes": 15663,
+    "sha256": "43b079154524fc4fef84038fa39a27255007900989ee3f5bcdfb19b187aa46a4"
+  },
+  {
+    "file": "boundaries.mat",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2024_vanirsel_jgr/data/supplementary/boundaries.mat",
+    "bytes": 28088,
+    "sha256": "fbd0d4458fc976be4eea595ebbe4d3606e5645ada0ec81193bf0150effebb540"
+  },
+  {
+    "file": "events.dat",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/events.dat",
+    "bytes": 2258,
+    "sha256": "4c82ac3be5645e9cfb641c14243f7fdb39f5f6c61018075ffb01cfd13d8de1de"
+  },
+  {
+    "file": "swarm_a_20230210.cdf",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/swarm/SW_EXPT_EFIA_TCT02_20230210T042551_20230210T165206_0302.cdf",
+    "bytes": 11334706,
+    "sha256": "e4a0a62fa46a1882e8253a9f78081dfd4edf2a3f11979834898845f0745660af"
+  },
+  {
+    "file": "swarm_c_20230210.cdf",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/swarm/SW_EXPT_EFIC_TCT02_20230210T090751_20230210T121006_0302.cdf",
+    "bytes": 2808790,
+    "sha256": "484523d20027064756e5d46f9753029327360d3f859b68f463b47172923932a6"
+  },
+  {
+    "file": "pfisr_20230210.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/pfisr/20230210.002_lp_5min-fitcal-vvels_lat.h5",
+    "bytes": 17656204,
+    "sha256": "d919cb271093845eb8a0af1bd257ccb5181c1744575f444981b5a6a8830962d5"
+  }
+]

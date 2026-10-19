@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-18",
+  "unit_tests": {
+    "passed": 11,
+    "exit_code": 0,
+    "command": "python -m pytest research/track_observability/tests research/gaussian_transport/tests -q"
+  },
+  "full_reproduction": {
+    "exit_code": 0,
+    "command": "python research/reproduce.py",
+    "status": "All research stages completed."
+  },
+  "result_integrity": {
+    "exit_code": 0,
+    "evaluation_rows": 1484,
+    "fluid_designs": 120,
+    "checks": [
+      "finite numeric outputs",
+      "expected row counts",
+      "disjoint fluid training and test voxels",
+      "shared test voxels across paired designs",
+      "100 percent smoke-support coverage in control",
+      "nested public split separation"
+    ]
+  },
+  "static_check": {
+    "command": "ruff check --select F research",
+    "exit_code": 0
+  },
+  "auroral_application": {
+    "date": "2026-10-18",
+    "unit_tests_passed": 9,
+    "experiment_exit_code": 0,
+    "source_hashes_verified": 17,
+    "source_bytes": 576639179,
+    "primary_prediction_rows": 1442,
+    "event_model_summaries": 49,
+    "scope": "Processed-bin/same-track holdouts; independent-track accuracy not established",
+    "details": "auroral_reconstruction/results/verification.json"
+  },
+  "latest_unit_suite": {
+    "date": "2026-10-18",
+    "passed": 27,
+    "exit_code": 0,
+    "command": "python -m pytest research/track_observability/tests research/gaussian_transport/tests research/auroral_reconstruction/test_model.py research/gaussian_observability/tests -q"
+  },
+  "gaussian_camera_application": {
+    "date": "2026-10-18",
+    "additional_cpu_tests": 7,
+    "gpu_gradient_checks": 5,
+    "controlled_camera_fits": 24,
+    "evaluation_conditions": 34,
+    "common_motion_vectors": 466944,
+    "volumetric_metric_rows": 12000,
+    "prediction_loss_recomputation_passed": true,
+    "scope": "One synthetic scene, reduced budgets, shared initial geometry, simulated sensors; no demonstrated advantage over conventional sensor-only motion estimation",
+    "details": "gaussian_observability/results/verification.json"
+  }
+}

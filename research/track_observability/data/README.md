@@ -1,0 +1,10 @@
+# Public data provenance
+
+Four CSVs are fetched from Renato Berlinghieri et al.'s [Helmholtz-GP repository](https://github.com/renatoberlinghieri/Helmholtz-GP), commit `826cd40a2f0827857012a06e08390190b58bfe54`. Exact URLs, byte counts, and SHA-256 hashes are in `manifest.json`. The download script verifies existing files against these hashes. The upstream repository's MIT notice is retained in `UPSTREAM_LICENSE.txt`; underlying observations must also be credited to their original investigators. Raw CSVs are downloaded locally, not redistributed in this addition.
+
+- `XY_train_gladfull.csv`, `UV_train_gladfull.csv`: 1,183 preprocessed positions and velocity vectors from the published GLAD example.
+- `XY_train_laserfull.csv`, `UV_train_laserfull.csv`: 240 preprocessed positions and velocity vectors from the published LASER example.
+
+Primary methods/data reference: Berlinghieri et al. (2023), [Gaussian processes at the Helm(holtz)](https://proceedings.mlr.press/v202/berlinghieri23a.html), Appendix I and linked original data citations. These CSVs have two columns and no per-row time or buoy identifiers. The source paper collapses time for these examples. We retain the source velocity scale without asserting a verified physical unit conversion. Input coordinates appear transformed, and are treated as the source's Cartesian representation. We apply only isotropic normalization, fitted on each outer training set. The study cannot disentangle spatial error from temporal evolution or repeated-buoy dependence.
+
+Exactly 160 rows per dataset are selected without using velocity values, with NumPy RNG seed 20261018. The complete original-row indices, fold labels, and transforms are stored in `results/public_splits.json`. No velocity labels from an outer test fold enter tuning. Geometry defines spatial folds, so the split itself uses all selected positions. These are exploratory spatial holdouts, not independent campaigns or a reconstruction of the original paper's optimized GP benchmark.

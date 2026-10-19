@@ -1,0 +1,19 @@
+{
+  "dictionary_blocks": 576,
+  "candidate_centers": 192,
+  "scales": [
+    30.0,
+    60.0,
+    120.0
+  ],
+  "image_rows": 3520,
+  "sensor_rows": 48,
+  "temporal_intervals": 3,
+  "finite_difference_epsilon": null,
+  "derivative": "autodiff",
+  "pool": 8,
+  "jacobian_seconds": 3.4247216310468502,
+  "gt_volumes_used": false,
+  "heldout_camera_used": false,
+  "selection": "Block OLS on local frame-zero rendering Jacobian; independent interval coefficients"
+}

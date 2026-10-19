@@ -1,0 +1,30 @@
+{
+  "scope": "Exploratory application, fixed before inspecting model losses; processed radar-bin and rocket-segment holdout, not independent-track validation",
+  "radar_events": [
+    "20230210",
+    "20230212",
+    "20230304a",
+    "20230304b",
+    "20230314",
+    "20230319"
+  ],
+  "radar_selection": "Integration containing camera time; mapped altitude 110 km only. Finite positive covariance, both horizontal marginal standard errors <30 mV/m, >=30 input points, 0<reduced chi2<3. No filtering on measured field magnitude.",
+  "imagery": "428 nm calibrated intensity; 110 km geographic map. Local plane about 65.12 N, -147.43 E, radius 6481 km. Fit quadratic ridge from brightness-excess centroids in 25 longitude bins on x=[-180,180] km, y=[-100,420] km. Threshold per-column 80th percentile; square excess. No velocity labels used.",
+  "radar_models": [
+    "constant",
+    "independent",
+    "electrostatic",
+    "straight_anisotropic",
+    "image_linear",
+    "image_aligned",
+    "image_reversed"
+  ],
+  "rocket": "195 processed measurements; use only points inside optical map. Optical snapshot nearest 07:54:10 UTC. Constant-B planar divergence-free velocity, no numerical magnetic strength asserted. Unknown measurement standard error provisionally 100 m/s, sensitivity 50 and 200 m/s.",
+  "validation": "Four contiguous outer groups with one original radar-bin guard or two original rocket-row guard. Nested three-group training-only tuning with same guard. Fit background only on training data. No copied track entries.",
+  "primary_loss": "Vector RMSE in physical units. Summarize each radar event equally; do not count bins as independent events.",
+  "uncertainty": "Conditional Gaussian universal-kriging covariance plus held-out reported measurement covariance and fitted floor; excludes geometry, temporal, instrument-systematic and hyperparameter uncertainty. Report 95% 2D chi-square ellipse coverage descriptively.",
+  "controls": "Identical kernel search in each model; anisotropy ratio 4 for straight/image models. Reverse image geometry as negative control; image-linear removes curvature. Four equally spaced image snapshots for rocket sensitivity. Constant baseline is training arithmetic mean.",
+  "limits": "PFISR bins already depend on upstream inversion/averaging. Camera seconds vs radar ~5 minutes. ISINGLASS static map vs moving track. No population-level significance or new-method claim. Image-aligned map away from observations is a hypothesis.",
+  "posthoc_temporal_audit": "After primary losses, decoded the pinned MATLAB MCOS datetime and verified against launch + elapsed time to <1 ms; added +/-30 s temporal subsets at optical frames 0,45,90,135. These overlapping windows are sensitivity cases, not independent events.",
+  "coordinate_audit": "Final radar fits transform geographic east/north E and its covariance to spherical potential-derivative chart components; inner and outer losses are in physical components. This fidelity correction followed preliminary planar fits."
+}

@@ -1,0 +1,18 @@
+{
+  "artifact_validation_passed": true,
+  "completed_camera_fits": 48,
+  "common_motion_rows": 144,
+  "reserved_camera_frame_scores": 192,
+  "sensor_separation_verified": true,
+  "motion_vectors": 589824,
+  "cpu_tests": 5,
+  "independent_surrogate_refits": 9,
+  "finite_difference_renderer_check_passed": false,
+  "finite_difference_renderer_probes": 3,
+  "finite_difference_pilot_fits": 6,
+  "backward_operator_consistency_checks": 4,
+  "derivative_limitation": "Backward assembly is consistent with upstream optimizer; renderer finite differences did not converge reliably.",
+  "kernel_parameter_gradient_checks": 4,
+  "independent_scenes": 1,
+  "all_prediction_losses_recomputed": true
+}

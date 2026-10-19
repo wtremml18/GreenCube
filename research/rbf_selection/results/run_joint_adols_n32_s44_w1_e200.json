@@ -1,0 +1,12 @@
+{
+  "tag": "joint_adols_n32_s44_w1_e200",
+  "method": "joint_adols",
+  "budget": 32,
+  "seed": 44,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_joint_adols_n32_s44_w1_e200_2026-10-18_23-36-59",
+  "train_wall_seconds": 42.22867426095763,
+  "evaluation_seconds": 8.977520131040365,
+  "basis_file": "basis_joint_adols_32.json"
+}

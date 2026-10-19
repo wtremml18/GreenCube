@@ -1,0 +1,901 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "candidate": 1,
+      "predicted_gain": 0.5347598659558855,
+      "residual_sse": 0.20382663207660162,
+      "rank": 3
+    },
+    {
+      "step": 2,
+      "candidate": 12,
+      "predicted_gain": 0.08941807448320604,
+      "residual_sse": 0.11440855759339566,
+      "rank": 6
+    },
+    {
+      "step": 3,
+      "candidate": 288,
+      "predicted_gain": 0.027411808208869258,
+      "residual_sse": 0.08699674938452641,
+      "rank": 9
+    },
+    {
+      "step": 4,
+      "candidate": 142,
+      "predicted_gain": 0.020992220002803864,
+      "residual_sse": 0.06600452938172252,
+      "rank": 12
+    },
+    {
+      "step": 5,
+      "candidate": 174,
+      "predicted_gain": 0.018210271745095256,
+      "residual_sse": 0.04779425763662729,
+      "rank": 15
+    },
+    {
+      "step": 6,
+      "candidate": 252,
+      "predicted_gain": 0.012574247645346127,
+      "residual_sse": 0.035220009991281144,
+      "rank": 18
+    },
+    {
+      "step": 7,
+      "candidate": 498,
+      "predicted_gain": 0.007929835281764743,
+      "residual_sse": 0.02729017470951641,
+      "rank": 21
+    },
+    {
+      "step": 8,
+      "candidate": 484,
+      "predicted_gain": 0.0076081600184086575,
+      "residual_sse": 0.019682014691107752,
+      "rank": 24
+    },
+    {
+      "step": 9,
+      "candidate": 206,
+      "predicted_gain": 0.005696781866589701,
+      "residual_sse": 0.013985232824518053,
+      "rank": 27
+    },
+    {
+      "step": 10,
+      "candidate": 408,
+      "predicted_gain": 0.005055131097775328,
+      "residual_sse": 0.008930101726742724,
+      "rank": 30
+    },
+    {
+      "step": 11,
+      "candidate": 204,
+      "predicted_gain": 0.0032598919592257804,
+      "residual_sse": 0.005670209767516948,
+      "rank": 33
+    },
+    {
+      "step": 12,
+      "candidate": 561,
+      "predicted_gain": 0.002397774842122188,
+      "residual_sse": 0.003272434925394763,
+      "rank": 36
+    },
+    {
+      "step": 13,
+      "candidate": 102,
+      "predicted_gain": 0.001416540675302879,
+      "residual_sse": 0.0018558942500918837,
+      "rank": 39
+    },
+    {
+      "step": 14,
+      "candidate": 184,
+      "predicted_gain": 0.0008711661293220632,
+      "residual_sse": 0.0009847281207698202,
+      "rank": 42
+    },
+    {
+      "step": 15,
+      "candidate": 480,
+      "predicted_gain": 0.00040994061886414956,
+      "residual_sse": 0.0005747875019056699,
+      "rank": 45
+    },
+    {
+      "step": 16,
+      "candidate": 228,
+      "predicted_gain": 9.361907218410703e-05,
+      "residual_sse": 0.00048116842972156283,
+      "rank": 48
+    },
+    {
+      "step": 17,
+      "candidate": 87,
+      "predicted_gain": 2.620670941803051e-05,
+      "residual_sse": 0.00045496172030353246,
+      "rank": 51
+    },
+    {
+      "step": 18,
+      "candidate": 147,
+      "predicted_gain": 1.694711183081531e-05,
+      "residual_sse": 0.0004380146084727173,
+      "rank": 54
+    },
+    {
+      "step": 19,
+      "candidate": 534,
+      "predicted_gain": 1.5639370406754928e-05,
+      "residual_sse": 0.00042237523806596235,
+      "rank": 57
+    },
+    {
+      "step": 20,
+      "candidate": 264,
+      "predicted_gain": 1.8982740194925415e-05,
+      "residual_sse": 0.0004033924978710369,
+      "rank": 60
+    },
+    {
+      "step": 21,
+      "candidate": 393,
+      "predicted_gain": 1.0870332994060585e-05,
+      "residual_sse": 0.0003925221648769763,
+      "rank": 63
+    },
+    {
+      "step": 22,
+      "candidate": 93,
+      "predicted_gain": 1.0446490264997187e-05,
+      "residual_sse": 0.0003820756746119791,
+      "rank": 66
+    },
+    {
+      "step": 23,
+      "candidate": 525,
+      "predicted_gain": 8.550641781856303e-06,
+      "residual_sse": 0.0003735250328301228,
+      "rank": 69
+    },
+    {
+      "step": 24,
+      "candidate": 297,
+      "predicted_gain": 8.70887008885307e-06,
+      "residual_sse": 0.00036481616274126975,
+      "rank": 72
+    },
+    {
+      "step": 25,
+      "candidate": 186,
+      "predicted_gain": 1.0215625125489253e-05,
+      "residual_sse": 0.00035460053761578045,
+      "rank": 75
+    },
+    {
+      "step": 26,
+      "candidate": 129,
+      "predicted_gain": 8.410377531543544e-06,
+      "residual_sse": 0.0003461901600842369,
+      "rank": 78
+    },
+    {
+      "step": 27,
+      "candidate": 426,
+      "predicted_gain": 7.450379356257656e-06,
+      "residual_sse": 0.00033873978072797924,
+      "rank": 81
+    },
+    {
+      "step": 28,
+      "candidate": 18,
+      "predicted_gain": 7.848517252616932e-06,
+      "residual_sse": 0.00033089126347536234,
+      "rank": 84
+    },
+    {
+      "step": 29,
+      "candidate": 369,
+      "predicted_gain": 4.12070393615032e-06,
+      "residual_sse": 0.000326770559539212,
+      "rank": 87
+    },
+    {
+      "step": 30,
+      "candidate": 42,
+      "predicted_gain": 4.574161431698051e-06,
+      "residual_sse": 0.00032219639810751393,
+      "rank": 90
+    },
+    {
+      "step": 31,
+      "candidate": 213,
+      "predicted_gain": 5.162089933668796e-06,
+      "residual_sse": 0.00031703430817384517,
+      "rank": 93
+    },
+    {
+      "step": 32,
+      "candidate": 75,
+      "predicted_gain": 7.673859379711422e-06,
+      "residual_sse": 0.00030936044879413375,
+      "rank": 96
+    },
+    {
+      "step": 33,
+      "candidate": 345,
+      "predicted_gain": 4.113712746920704e-06,
+      "residual_sse": 0.0003052467360472131,
+      "rank": 99
+    },
+    {
+      "step": 34,
+      "candidate": 363,
+      "predicted_gain": 4.820332541406886e-06,
+      "residual_sse": 0.0003004264035058062,
+      "rank": 102
+    },
+    {
+      "step": 35,
+      "candidate": 477,
+      "predicted_gain": 4.3222600449820996e-06,
+      "residual_sse": 0.0002961041434608241,
+      "rank": 105
+    },
+    {
+      "step": 36,
+      "candidate": 513,
+      "predicted_gain": 3.701089089362766e-06,
+      "residual_sse": 0.0002924030543714614,
+      "rank": 108
+    },
+    {
+      "step": 37,
+      "candidate": 162,
+      "predicted_gain": 7.313149350276428e-06,
+      "residual_sse": 0.0002850899050211849,
+      "rank": 111
+    },
+    {
+      "step": 38,
+      "candidate": 69,
+      "predicted_gain": 5.152629007200803e-06,
+      "residual_sse": 0.0002799372760139841,
+      "rank": 114
+    },
+    {
+      "step": 39,
+      "candidate": 237,
+      "predicted_gain": 4.082711480721612e-06,
+      "residual_sse": 0.0002758545645332625,
+      "rank": 117
+    },
+    {
+      "step": 40,
+      "candidate": 21,
+      "predicted_gain": 3.77962012794254e-06,
+      "residual_sse": 0.0002720749444053199,
+      "rank": 120
+    },
+    {
+      "step": 41,
+      "candidate": 489,
+      "predicted_gain": 3.465855240518611e-06,
+      "residual_sse": 0.0002686090891648013,
+      "rank": 123
+    },
+    {
+      "step": 42,
+      "candidate": 63,
+      "predicted_gain": 4.054303146530036e-06,
+      "residual_sse": 0.0002645547860182713,
+      "rank": 126
+    },
+    {
+      "step": 43,
+      "candidate": 483,
+      "predicted_gain": 2.9923742084327758e-06,
+      "residual_sse": 0.00026156241180983847,
+      "rank": 129
+    },
+    {
+      "step": 44,
+      "candidate": 51,
+      "predicted_gain": 3.1451988410968014e-06,
+      "residual_sse": 0.0002584172129687417,
+      "rank": 132
+    },
+    {
+      "step": 45,
+      "candidate": 183,
+      "predicted_gain": 2.280721433472547e-06,
+      "residual_sse": 0.0002561364915352691,
+      "rank": 135
+    },
+    {
+      "step": 46,
+      "candidate": 306,
+      "predicted_gain": 2.1535604415739453e-06,
+      "residual_sse": 0.00025398293109369524,
+      "rank": 138
+    },
+    {
+      "step": 47,
+      "candidate": 117,
+      "predicted_gain": 5.704729794780893e-06,
+      "residual_sse": 0.0002482782012989143,
+      "rank": 141
+    },
+    {
+      "step": 48,
+      "candidate": 144,
+      "predicted_gain": 3.454882077535171e-06,
+      "residual_sse": 0.00024482331922137917,
+      "rank": 144
+    },
+    {
+      "step": 49,
+      "candidate": 219,
+      "predicted_gain": 3.1845136165327554e-06,
+      "residual_sse": 0.00024163880560484636,
+      "rank": 147
+    },
+    {
+      "step": 50,
+      "candidate": 99,
+      "predicted_gain": 3.983302252706193e-06,
+      "residual_sse": 0.0002376555033521402,
+      "rank": 150
+    },
+    {
+      "step": 51,
+      "candidate": 540,
+      "predicted_gain": 3.4407241250387586e-06,
+      "residual_sse": 0.00023421477922710144,
+      "rank": 153
+    },
+    {
+      "step": 52,
+      "candidate": 96,
+      "predicted_gain": 3.214403271730166e-06,
+      "residual_sse": 0.0002310003759553713,
+      "rank": 156
+    },
+    {
+      "step": 53,
+      "candidate": 468,
+      "predicted_gain": 4.054978106642199e-06,
+      "residual_sse": 0.0002269453978487291,
+      "rank": 159
+    },
+    {
+      "step": 54,
+      "candidate": 357,
+      "predicted_gain": 2.906744175109189e-06,
+      "residual_sse": 0.00022403865367361987,
+      "rank": 162
+    },
+    {
+      "step": 55,
+      "candidate": 417,
+      "predicted_gain": 2.710206419623386e-06,
+      "residual_sse": 0.00022132844725399653,
+      "rank": 165
+    },
+    {
+      "step": 56,
+      "candidate": 138,
+      "predicted_gain": 2.788146955023527e-06,
+      "residual_sse": 0.00021854030029897298,
+      "rank": 168
+    },
+    {
+      "step": 57,
+      "candidate": 495,
+      "predicted_gain": 2.1014185029524795e-06,
+      "residual_sse": 0.00021643888179602048,
+      "rank": 171
+    },
+    {
+      "step": 58,
+      "candidate": 447,
+      "predicted_gain": 2.4109987560016077e-06,
+      "residual_sse": 0.00021402788304001886,
+      "rank": 174
+    },
+    {
+      "step": 59,
+      "candidate": 54,
+      "predicted_gain": 3.2984669006376744e-06,
+      "residual_sse": 0.00021072941613938122,
+      "rank": 177
+    },
+    {
+      "step": 60,
+      "candidate": 429,
+      "predicted_gain": 3.5944144847952588e-06,
+      "residual_sse": 0.00020713500165458597,
+      "rank": 180
+    },
+    {
+      "step": 61,
+      "candidate": 108,
+      "predicted_gain": 2.5407249159110745e-06,
+      "residual_sse": 0.00020459427673867486,
+      "rank": 183
+    },
+    {
+      "step": 62,
+      "candidate": 114,
+      "predicted_gain": 2.6784670199060662e-06,
+      "residual_sse": 0.0002019158097187688,
+      "rank": 186
+    },
+    {
+      "step": 63,
+      "candidate": 504,
+      "predicted_gain": 3.1914269058443006e-06,
+      "residual_sse": 0.00019872438281292446,
+      "rank": 189
+    },
+    {
+      "step": 64,
+      "candidate": 243,
+      "predicted_gain": 2.324929365293144e-06,
+      "residual_sse": 0.00019639945344763137,
+      "rank": 192
+    },
+    {
+      "step": 65,
+      "candidate": 348,
+      "predicted_gain": 2.4829320955954032e-06,
+      "residual_sse": 0.00019391652135203596,
+      "rank": 195
+    },
+    {
+      "step": 66,
+      "candidate": 132,
+      "predicted_gain": 2.961823460425307e-06,
+      "residual_sse": 0.00019095469789161062,
+      "rank": 198
+    },
+    {
+      "step": 67,
+      "candidate": 24,
+      "predicted_gain": 2.2095136862405053e-06,
+      "residual_sse": 0.00018874518420537015,
+      "rank": 201
+    },
+    {
+      "step": 68,
+      "candidate": 141,
+      "predicted_gain": 2.0354065593480266e-06,
+      "residual_sse": 0.0001867097776460221,
+      "rank": 204
+    },
+    {
+      "step": 69,
+      "candidate": 564,
+      "predicted_gain": 1.4130751550496677e-06,
+      "residual_sse": 0.00018529670249097243,
+      "rank": 207
+    },
+    {
+      "step": 70,
+      "candidate": 267,
+      "predicted_gain": 1.3266229984168272e-06,
+      "residual_sse": 0.00018397007949255562,
+      "rank": 210
+    },
+    {
+      "step": 71,
+      "candidate": 510,
+      "predicted_gain": 1.614786149327694e-06,
+      "residual_sse": 0.0001823552933432279,
+      "rank": 213
+    },
+    {
+      "step": 72,
+      "candidate": 300,
+      "predicted_gain": 2.2036320705642307e-06,
+      "residual_sse": 0.00018015166127266372,
+      "rank": 216
+    },
+    {
+      "step": 73,
+      "candidate": 501,
+      "predicted_gain": 1.489458359623141e-06,
+      "residual_sse": 0.00017866220291304054,
+      "rank": 219
+    },
+    {
+      "step": 74,
+      "candidate": 0,
+      "predicted_gain": 1.9233774191019413e-06,
+      "residual_sse": 0.00017673882549393857,
+      "rank": 222
+    },
+    {
+      "step": 75,
+      "candidate": 396,
+      "predicted_gain": 3.3477513848217615e-06,
+      "residual_sse": 0.00017339107410911685,
+      "rank": 225
+    },
+    {
+      "step": 76,
+      "candidate": 457,
+      "predicted_gain": 2.4263168553984005e-06,
+      "residual_sse": 0.00017096475725371846,
+      "rank": 228
+    },
+    {
+      "step": 77,
+      "candidate": 543,
+      "predicted_gain": 1.4056038902728897e-06,
+      "residual_sse": 0.00016955915336344554,
+      "rank": 231
+    },
+    {
+      "step": 78,
+      "candidate": 159,
+      "predicted_gain": 1.3262765889270518e-06,
+      "residual_sse": 0.0001682328767745185,
+      "rank": 234
+    },
+    {
+      "step": 79,
+      "candidate": 261,
+      "predicted_gain": 1.2277229529288821e-06,
+      "residual_sse": 0.0001670051538215896,
+      "rank": 237
+    },
+    {
+      "step": 80,
+      "candidate": 559,
+      "predicted_gain": 1.2827004242603037e-06,
+      "residual_sse": 0.00016572245339732932,
+      "rank": 240
+    },
+    {
+      "step": 81,
+      "candidate": 48,
+      "predicted_gain": 1.1664885003998908e-06,
+      "residual_sse": 0.0001645559648969294,
+      "rank": 243
+    },
+    {
+      "step": 82,
+      "candidate": 45,
+      "predicted_gain": 1.226282033998588e-06,
+      "residual_sse": 0.00016332968286293081,
+      "rank": 246
+    },
+    {
+      "step": 83,
+      "candidate": 507,
+      "predicted_gain": 1.439348820030761e-06,
+      "residual_sse": 0.00016189033404290007,
+      "rank": 249
+    },
+    {
+      "step": 84,
+      "candidate": 123,
+      "predicted_gain": 1.409620591436719e-06,
+      "residual_sse": 0.00016048071345146336,
+      "rank": 252
+    },
+    {
+      "step": 85,
+      "candidate": 333,
+      "predicted_gain": 1.4270004541099068e-06,
+      "residual_sse": 0.00015905371299735344,
+      "rank": 255
+    },
+    {
+      "step": 86,
+      "candidate": 558,
+      "predicted_gain": 9.181910036627943e-07,
+      "residual_sse": 0.00015813552199369068,
+      "rank": 258
+    },
+    {
+      "step": 87,
+      "candidate": 231,
+      "predicted_gain": 9.003090870287431e-07,
+      "residual_sse": 0.00015723521290666193,
+      "rank": 261
+    },
+    {
+      "step": 88,
+      "candidate": 3,
+      "predicted_gain": 8.384097301652062e-07,
+      "residual_sse": 0.00015639680317649672,
+      "rank": 264
+    },
+    {
+      "step": 89,
+      "candidate": 192,
+      "predicted_gain": 8.927494130913323e-07,
+      "residual_sse": 0.00015550405376340537,
+      "rank": 267
+    },
+    {
+      "step": 90,
+      "candidate": 175,
+      "predicted_gain": 9.43958730391288e-07,
+      "residual_sse": 0.0001545600950330141,
+      "rank": 270
+    },
+    {
+      "step": 91,
+      "candidate": 528,
+      "predicted_gain": 1.5517011872192258e-06,
+      "residual_sse": 0.00015300839384579484,
+      "rank": 273
+    },
+    {
+      "step": 92,
+      "candidate": 135,
+      "predicted_gain": 2.141960087352966e-06,
+      "residual_sse": 0.00015086643375844189,
+      "rank": 276
+    },
+    {
+      "step": 93,
+      "candidate": 450,
+      "predicted_gain": 1.0062546006284843e-06,
+      "residual_sse": 0.0001498601791578134,
+      "rank": 279
+    },
+    {
+      "step": 94,
+      "candidate": 95,
+      "predicted_gain": 1.5819236408464873e-06,
+      "residual_sse": 0.0001482782555169669,
+      "rank": 282
+    },
+    {
+      "step": 95,
+      "candidate": 189,
+      "predicted_gain": 1.67463678159904e-06,
+      "residual_sse": 0.00014660361873536788,
+      "rank": 285
+    },
+    {
+      "step": 96,
+      "candidate": 216,
+      "predicted_gain": 1.5134710812690397e-06,
+      "residual_sse": 0.00014509014765409886,
+      "rank": 288
+    },
+    {
+      "step": 97,
+      "candidate": 118,
+      "predicted_gain": 1.6969190650106928e-06,
+      "residual_sse": 0.00014339322858908816,
+      "rank": 291
+    },
+    {
+      "step": 98,
+      "candidate": 44,
+      "predicted_gain": 2.0068369805643674e-06,
+      "residual_sse": 0.00014138639160852378,
+      "rank": 294
+    },
+    {
+      "step": 99,
+      "candidate": 381,
+      "predicted_gain": 2.1131294198480894e-06,
+      "residual_sse": 0.0001392732621886757,
+      "rank": 297
+    },
+    {
+      "step": 100,
+      "candidate": 488,
+      "predicted_gain": 1.915143365919824e-06,
+      "residual_sse": 0.00013735811882275588,
+      "rank": 300
+    },
+    {
+      "step": 101,
+      "candidate": 294,
+      "predicted_gain": 2.322570850168077e-06,
+      "residual_sse": 0.0001350355479725878,
+      "rank": 303
+    },
+    {
+      "step": 102,
+      "candidate": 418,
+      "predicted_gain": 2.6386774000634203e-06,
+      "residual_sse": 0.0001323968705725244,
+      "rank": 306
+    },
+    {
+      "step": 103,
+      "candidate": 537,
+      "predicted_gain": 2.44683588476739e-06,
+      "residual_sse": 0.00012995003468775702,
+      "rank": 309
+    },
+    {
+      "step": 104,
+      "candidate": 303,
+      "predicted_gain": 2.586801727001282e-06,
+      "residual_sse": 0.00012736323296075571,
+      "rank": 312
+    },
+    {
+      "step": 105,
+      "candidate": 342,
+      "predicted_gain": 2.8559347427462628e-06,
+      "residual_sse": 0.00012450729821800947,
+      "rank": 315
+    },
+    {
+      "step": 106,
+      "candidate": 214,
+      "predicted_gain": 2.2500366722197658e-06,
+      "residual_sse": 0.00012225726154578968,
+      "rank": 318
+    },
+    {
+      "step": 107,
+      "candidate": 556,
+      "predicted_gain": 2.7807041889329423e-06,
+      "residual_sse": 0.00011947655735685675,
+      "rank": 321
+    },
+    {
+      "step": 108,
+      "candidate": 15,
+      "predicted_gain": 1.9821304251402223e-06,
+      "residual_sse": 0.00011749442693171653,
+      "rank": 324
+    },
+    {
+      "step": 109,
+      "candidate": 378,
+      "predicted_gain": 1.8153810469353345e-06,
+      "residual_sse": 0.00011567904588478119,
+      "rank": 327
+    },
+    {
+      "step": 110,
+      "candidate": 67,
+      "predicted_gain": 2.48301250140075e-06,
+      "residual_sse": 0.00011319603338338043,
+      "rank": 330
+    },
+    {
+      "step": 111,
+      "candidate": 456,
+      "predicted_gain": 3.0155596297870393e-06,
+      "residual_sse": 0.0001101804737535934,
+      "rank": 333
+    },
+    {
+      "step": 112,
+      "candidate": 384,
+      "predicted_gain": 1.838584518220601e-06,
+      "residual_sse": 0.00010834188923537281,
+      "rank": 336
+    },
+    {
+      "step": 113,
+      "candidate": 462,
+      "predicted_gain": 1.4982597525672387e-06,
+      "residual_sse": 0.00010684362948280556,
+      "rank": 339
+    },
+    {
+      "step": 114,
+      "candidate": 573,
+      "predicted_gain": 1.6599747130866772e-06,
+      "residual_sse": 0.00010518365476971888,
+      "rank": 342
+    },
+    {
+      "step": 115,
+      "candidate": 313,
+      "predicted_gain": 1.5577254523901865e-06,
+      "residual_sse": 0.0001036259293173287,
+      "rank": 345
+    },
+    {
+      "step": 116,
+      "candidate": 170,
+      "predicted_gain": 1.1648286654938708e-06,
+      "residual_sse": 0.00010246110065183483,
+      "rank": 348
+    },
+    {
+      "step": 117,
+      "candidate": 324,
+      "predicted_gain": 1.1456868480235154e-06,
+      "residual_sse": 0.00010131541380381133,
+      "rank": 351
+    },
+    {
+      "step": 118,
+      "candidate": 451,
+      "predicted_gain": 1.2956876902167934e-06,
+      "residual_sse": 0.00010001972611359452,
+      "rank": 354
+    },
+    {
+      "step": 119,
+      "candidate": 6,
+      "predicted_gain": 1.5651908348131398e-06,
+      "residual_sse": 9.845453527878141e-05,
+      "rank": 357
+    },
+    {
+      "step": 120,
+      "candidate": 187,
+      "predicted_gain": 1.6896308465012196e-06,
+      "residual_sse": 9.676490443228019e-05,
+      "rank": 360
+    },
+    {
+      "step": 121,
+      "candidate": 166,
+      "predicted_gain": 2.2704541090586324e-06,
+      "residual_sse": 9.449445032322155e-05,
+      "rank": 363
+    },
+    {
+      "step": 122,
+      "candidate": 201,
+      "predicted_gain": 3.4530636388905387e-06,
+      "residual_sse": 9.104138668433101e-05,
+      "rank": 366
+    },
+    {
+      "step": 123,
+      "candidate": 302,
+      "predicted_gain": 2.5143629311603733e-06,
+      "residual_sse": 8.852702375317063e-05,
+      "rank": 369
+    },
+    {
+      "step": 124,
+      "candidate": 177,
+      "predicted_gain": 3.1130941443716406e-06,
+      "residual_sse": 8.5413929608799e-05,
+      "rank": 372
+    },
+    {
+      "step": 125,
+      "candidate": 441,
+      "predicted_gain": 1.3893486593535486e-06,
+      "residual_sse": 8.402458094944546e-05,
+      "rank": 375
+    },
+    {
+      "step": 126,
+      "candidate": 62,
+      "predicted_gain": 1.6223752167415632e-06,
+      "residual_sse": 8.240220573270388e-05,
+      "rank": 378
+    },
+    {
+      "step": 127,
+      "candidate": 516,
+      "predicted_gain": 1.8131889482056405e-06,
+      "residual_sse": 8.058901678449825e-05,
+      "rank": 381
+    },
+    {
+      "step": 128,
+      "candidate": 58,
+      "predicted_gain": 2.1044176213334764e-06,
+      "residual_sse": 7.848459916316478e-05,
+      "rank": 384
+    }
+  ],
+  "selection_seconds": 7.763922474987339
+}

@@ -1,0 +1,12 @@
+{
+  "tag": "image_ols_n64_s42_w1_e200",
+  "method": "image_ols",
+  "budget": 64,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_image_ols_n64_s42_w1_e200_2026-10-18_23-09-20",
+  "train_wall_seconds": 46.610955040028784,
+  "evaluation_seconds": 8.93552371597616,
+  "basis_file": "basis_image_ols_64.json"
+}

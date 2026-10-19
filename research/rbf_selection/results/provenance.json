@@ -1,0 +1,59 @@
+{
+  "upstream_repository": "https://github.com/taoningxiao/LagrangianSplats",
+  "upstream_commit": "180f61a8b56a39f3a71df168c54c87669081acff",
+  "data_sources": [
+    {
+      "name": "images",
+      "url": "https://huggingface.co/datasets/tnx123/LagrangianSplats-Dataset/resolve/main/data/scalarsyn.tar.gz",
+      "sha256": "26460ff1e8bb780b7ece48de05880c06d5e0332621c7a966bdad2320f14739bd",
+      "bytes": 1449520
+    },
+    {
+      "name": "ground_truth",
+      "url": "https://huggingface.co/datasets/tnx123/LagrangianSplats-Dataset/resolve/main/gt/scalarsyn.tar.gz",
+      "sha256": "48e1aece0b78e3cb65c9cf26c206971c39564e619d0a142abd98f45986ebf22d",
+      "bytes": 703997193
+    }
+  ],
+  "fixed_observations": {
+    "file": "image_sensors_visual16.json",
+    "bytes": 10249,
+    "sha256": "bf2081ea3068d80e1267909610f6c2e61a12b3227ba9a5d8590dd4c9eec1114b"
+  },
+  "common_holdouts": {
+    "file": "common_samples.npz",
+    "bytes": 620021,
+    "sha256": "7222c9ff68bc52df2089250e5a5a89c17f7621e0ebcc72c674ad69cfe10d4202"
+  },
+  "shared_initial_appearance": [
+    {
+      "file": "deformation.pth",
+      "bytes": 143072562,
+      "sha256": "a641c92f26257b8526c71da9c4c6006d3ad5e6ff2aa3bf9b2c3353d2e438c3b6"
+    },
+    {
+      "file": "deformation_accum.pth",
+      "bytes": 74799,
+      "sha256": "72d8ca51fdf3aa31a0e65a7040cbee48746965d0b637cfb5d2f5bfc1e072cff2"
+    },
+    {
+      "file": "deformation_table.pth",
+      "bytes": 7727,
+      "sha256": "1ae8fc97208151b9a1b480bb569f14bdf6a631a942f947ccc45b830971b3c3c2"
+    },
+    {
+      "file": "point_cloud.ply",
+      "bytes": 1513585,
+      "sha256": "93072dbfafc3baaba8647e55ba4a3d5cbf1c16ccb8335ecd17cfa6f4c3623c5d"
+    }
+  ],
+  "upstream_patch_order": [
+    "../gaussian_observability/patches/ (see its README)",
+    "patches/basis_initialization.patch"
+  ],
+  "gpu_environment": "../gaussian_observability/results/gpu_environment.json",
+  "training_cameras": 4,
+  "reserved_cameras": 1,
+  "frames": 4,
+  "initial_appearance_gaussians": 6097
+}

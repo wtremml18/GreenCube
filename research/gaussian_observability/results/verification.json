@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "volumetric_metric_rows": 12000,
+  "camera_evaluation_conditions": 34,
+  "unique_controlled_camera_fits": 24,
+  "common_motion_frame_rows": 114,
+  "common_motion_vector_predictions": 466944,
+  "sensor_only_frame_rows": 66,
+  "prediction_loss_recomputation_passed": true,
+  "reserved_camera_frame_scores": 148,
+  "directional_diagnostic_rows": 180,
+  "cpu_unit_tests": 7,
+  "gpu_gradient_checks": 5,
+  "min_sensor_exclusion_voxels": 2,
+  "independent_simulations": 1
+}

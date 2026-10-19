@@ -1,0 +1,19 @@
+{
+  "seeds": 10,
+  "length": 0.08,
+  "kind": "df",
+  "density_noise": 0.3,
+  "frames": [
+    1,
+    10,
+    20,
+    28
+  ],
+  "sensor_noise_actual": 0.05,
+  "sensor_noise_assumed": 0.05,
+  "n_candidates": 192,
+  "n_test": 256,
+  "n_density": 256,
+  "effective_frame_dt": 1.0,
+  "runtime_seconds": 46.10758066177368
+}

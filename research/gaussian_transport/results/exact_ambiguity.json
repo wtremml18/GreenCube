@@ -1,0 +1,94 @@
+{
+  "generator_trace": 0.0,
+  "strain_norm": 1.2613175295819998,
+  "time_series": [
+    {
+      "time": 0.0,
+      "covariance_max_abs": 0.0,
+      "logdet": 0.0,
+      "marker_rms_displacement": 0.0
+    },
+    {
+      "time": 0.25,
+      "covariance_max_abs": 2.0062608918715088e-17,
+      "logdet": -6.591949208711867e-17,
+      "marker_rms_displacement": 0.19989776702789366
+    },
+    {
+      "time": 0.5,
+      "covariance_max_abs": 1.0664396036525989e-17,
+      "logdet": -1.734723475976807e-16,
+      "marker_rms_displacement": 0.3978825281025824
+    },
+    {
+      "time": 1.0,
+      "covariance_max_abs": 5.551115123125783e-17,
+      "logdet": -1.3877787807814457e-16,
+      "marker_rms_displacement": 0.7674998537789777
+    },
+    {
+      "time": 2.0,
+      "covariance_max_abs": 1.3322676295501878e-15,
+      "logdet": -3.9968028886505635e-15,
+      "marker_rms_displacement": 1.2707147838105541
+    }
+  ],
+  "sensors": {
+    "center": {
+      "rank": 0,
+      "singular_values": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "one_point": {
+      "rank": 2,
+      "singular_values": [
+        0.2502385446136823,
+        0.13507604365568113,
+        1.713701787404702e-17
+      ]
+    },
+    "two_noncollinear": {
+      "rank": 3,
+      "singular_values": [
+        0.46710480115304237,
+        0.22113984824929647,
+        0.11128079654680402
+      ]
+    }
+  },
+  "integration_convergence": [
+    {
+      "steps": 4,
+      "center_max_error": 2.029045817830699e-05,
+      "covariance_max_error": 4.479123561960084e-08,
+      "max_abs_logdet": 3.0564960728729496e-05
+    },
+    {
+      "steps": 8,
+      "center_max_error": 1.3155896997352201e-06,
+      "covariance_max_error": 2.8367211325156655e-09,
+      "max_abs_logdet": 1.8622915199384416e-06
+    },
+    {
+      "steps": 16,
+      "center_max_error": 8.390079697662145e-08,
+      "covariance_max_error": 1.7876522506211912e-10,
+      "max_abs_logdet": 1.1569513896914074e-07
+    },
+    {
+      "steps": 32,
+      "center_max_error": 5.29862775877632e-09,
+      "covariance_max_error": 1.1222766639618076e-11,
+      "max_abs_logdet": 7.214931485588494e-09
+    },
+    {
+      "steps": 64,
+      "center_max_error": 3.316936725283881e-10,
+      "covariance_max_error": 6.998787400319673e-13,
+      "max_abs_logdet": 4.505251172126634e-10
+    }
+  ]
+}

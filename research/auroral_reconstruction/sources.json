@@ -1,0 +1,104 @@
+[
+  {
+    "file": "flow_data_ig.mat",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2024_vanirsel_jgr/data/supplementary/flow_data_ig.mat",
+    "bytes": 15663,
+    "sha256": "43b079154524fc4fef84038fa39a27255007900989ee3f5bcdfb19b187aa46a4"
+  },
+  {
+    "file": "pfisr_20230210.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/pfisr/20230210.002_lp_5min-fitcal-vvels_lat.h5",
+    "bytes": 17656204,
+    "sha256": "d919cb271093845eb8a0af1bd257ccb5181c1744575f444981b5a6a8830962d5"
+  },
+  {
+    "file": "particles_ig.mat",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2024_vanirsel_jgr/data/supplementary/particles_ig.mat",
+    "bytes": 114565229,
+    "sha256": "d4c641636f0558050db59aefd060eeb233832ad8776f459c10981045961066ed"
+  },
+  {
+    "file": "dasc_20230210.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/INV_PKR_20230210_35487.h5",
+    "bytes": 67139200,
+    "sha256": "67833d45f02d0e049ee765fde7d08ce157dd5c244a9a3a81cef6a5975f263edb"
+  },
+  {
+    "file": "dasc_20230212.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/INV_PKR_20230212_37331.h5",
+    "bytes": 67139200,
+    "sha256": "3edfc2463a41c72337c7f535458f1632f6d14af364f7f1457addf9647ddf2236"
+  },
+  {
+    "file": "pfisr_20230212.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/pfisr/20230212.002_lp_5min-fitcal-vvels_lat.h5",
+    "bytes": 17680830,
+    "sha256": "ab96babe51fe6f4a35543657570060e149ca6339a9093d41b0259b6030c4a9b8"
+  },
+  {
+    "file": "dasc_20230304a.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/INV_PKR_20230304_27012.h5",
+    "bytes": 67139200,
+    "sha256": "fcfba223f32a9cfd97118a379803ea9b89ef06cc255cc9b37251db67bc5c0af9"
+  },
+  {
+    "file": "pfisr_20230304a.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/pfisr/20230304.002_lp_5min-fitcal-vvels_lat.h5",
+    "bytes": 3139166,
+    "sha256": "934c6ce794d7f8bd494cb111a3f474f887eaac5acd794b30cca9c92816fe697d"
+  },
+  {
+    "file": "dasc_20230304b.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/INV_PKR_20230304_36829.h5",
+    "bytes": 67139200,
+    "sha256": "63d9f5d1e6b797aca4ed99123ddf4886b7dd51393cc1eef7ca309368c9dbf8e6"
+  },
+  {
+    "file": "pfisr_20230304b.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/pfisr/20230304.003_lp_5min-fitcal-vvels_lat.h5",
+    "bytes": 14055319,
+    "sha256": "01b8098b03cf080df894d4f2fd35abe0f0f11551184e0f8236d8f238d719e254"
+  },
+  {
+    "file": "dasc_20230314.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/INV_PKR_20230314_24547.h5",
+    "bytes": 67139200,
+    "sha256": "0aba35f5a498406307e80e96d2e5a77980d11eebf982a8dba21798767f5ef708"
+  },
+  {
+    "file": "pfisr_20230314.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/pfisr/20230314.002_lp_5min-fitcal-vvels_lat.h5",
+    "bytes": 2898463,
+    "sha256": "53fe79ca12e49342cb948e628ab572f1c61b5f17cccc690229f7f7e5b28c1d8e"
+  },
+  {
+    "file": "dasc_20230319.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/INV_PKR_20230319_30210.h5",
+    "bytes": 67139200,
+    "sha256": "b6f995dc101566f9f2010682a58a1622be5e81b38f22d526037743dc28bff1a9"
+  },
+  {
+    "file": "pfisr_20230319.h5",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/pfisr/20230319.001_lp_5min-fitcal-vvels_lat.h5",
+    "bytes": 3018202,
+    "sha256": "c931ef7240f79fdb728ba97c8a7dfa974fa46aabb364f29b412ed3443c21e3a7"
+  },
+  {
+    "file": "PKR_20230210_095125_0428.png",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/imagery/20230210/PKR_20230210_095125_0428.png",
+    "bytes": 254592,
+    "sha256": "acfc537f06e067565a898f302a38dd1252d38bb9d65e1cdeacd01a725a044387"
+  },
+  {
+    "file": "PKR_20230210_095128_0558.png",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/imagery/20230210/PKR_20230210_095128_0558.png",
+    "bytes": 262391,
+    "sha256": "577d9f7dedd783ecd550e41082bc3e75e633c7e19f42bc2e54fcc66beeb90d32"
+  },
+  {
+    "file": "PKR_20230210_095130_0630.png",
+    "url": "https://rcweb.dartmouth.edu/LynchK/pubdata/2025_vanirsel_jgr/data/data/dasc/imagery/20230210/PKR_20230210_095130_0630.png",
+    "bytes": 257920,
+    "sha256": "f6e466ffa9d9f68bad9e2c3d5c603e60625ae6e3765c1a3258ea7f619bf9c4f8"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "primary_prediction_rows": 1442,
+  "event_model_summaries": 49,
+  "radar_events": 6,
+  "radar_bins": 76,
+  "rocket_samples": 130,
+  "numerical_unit_tests": 9,
+  "source_files": 17,
+  "source_bytes": 576639179,
+  "checks": [
+    "unique held-out observation per event/model",
+    "outer train/test separation with guard",
+    "all physical predictions finite",
+    "loss independently recomputed from vector components",
+    "reported RMSE agrees with saved predictions",
+    "exported latent covariance positive semidefinite"
+  ],
+  "experiment_exit_code": 0,
+  "scope": "Processed radar-bin and rocket-segment holdout; no independent-track validation"
+}

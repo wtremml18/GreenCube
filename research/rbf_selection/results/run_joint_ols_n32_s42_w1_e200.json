@@ -1,0 +1,12 @@
+{
+  "tag": "joint_ols_n32_s42_w1_e200",
+  "method": "joint_ols",
+  "budget": 32,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_joint_ols_n32_s42_w1_e200_2026-10-18_23-05-12",
+  "train_wall_seconds": 44.73364102101186,
+  "evaluation_seconds": 10.83055965299718,
+  "basis_file": "basis_joint_ols_32.json"
+}

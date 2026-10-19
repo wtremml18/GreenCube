@@ -1,0 +1,14 @@
+[
+  {
+    "name": "images",
+    "url": "https://huggingface.co/datasets/tnx123/LagrangianSplats-Dataset/resolve/main/data/scalarsyn.tar.gz",
+    "sha256": "26460ff1e8bb780b7ece48de05880c06d5e0332621c7a966bdad2320f14739bd",
+    "bytes": 1449520
+  },
+  {
+    "name": "ground_truth",
+    "url": "https://huggingface.co/datasets/tnx123/LagrangianSplats-Dataset/resolve/main/gt/scalarsyn.tar.gz",
+    "sha256": "48e1aece0b78e3cb65c9cf26c206971c39564e619d0a142abd98f45986ebf22d",
+    "bytes": 703997193
+  }
+]

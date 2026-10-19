@@ -1,0 +1,44 @@
+{
+  "url": "https://huggingface.co/datasets/tnx123/LagrangianSplats-Dataset/resolve/main/gt/scalarsyn.tar.gz",
+  "sha256": "48e1aece0b78e3cb65c9cf26c206971c39564e619d0a142abd98f45986ebf22d",
+  "frames": [
+    0,
+    10,
+    20,
+    29
+  ],
+  "files": [
+    {
+      "name": "density_0000.npz",
+      "sha256": "cef4b221ea94e4a54febe4fad5e343fd9fe2ffad8787c08a8808fdc4b434595e"
+    },
+    {
+      "name": "density_0010.npz",
+      "sha256": "4bb5718c7df980f66503cfa918df724e92d30665210f3e71e9dda86deec08ea9"
+    },
+    {
+      "name": "density_0020.npz",
+      "sha256": "67561e72f0d13b58606885498086378ce00fd74a52da904d54a921c222b3c1cd"
+    },
+    {
+      "name": "density_0029.npz",
+      "sha256": "321d0baf50d7c1475c36cf202acdbc2ee066c98833b58635295a26b69ac6095a"
+    },
+    {
+      "name": "velocity_0000.npz",
+      "sha256": "4f4358f94cdec264430f2200a1bb6802b158da69316e7d4a659f15523ac71ffb"
+    },
+    {
+      "name": "velocity_0010.npz",
+      "sha256": "f0a0e5ae7288c5ead8fc5ee20bfae55b7f8fc62f60432f04ccc055eb5e58b0e6"
+    },
+    {
+      "name": "velocity_0020.npz",
+      "sha256": "ea3a0c7d60ae29a68062cd9358d12d08a582c54e784540e1ec36dcc7f8157cf6"
+    },
+    {
+      "name": "velocity_0029.npz",
+      "sha256": "7610f736db7e310e168618b9d915eb9df57e8241d997bfefcba3bb1d905e3fa0"
+    }
+  ]
+}

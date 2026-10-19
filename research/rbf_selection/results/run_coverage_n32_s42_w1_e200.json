@@ -1,0 +1,12 @@
+{
+  "tag": "coverage_n32_s42_w1_e200",
+  "method": "coverage",
+  "budget": 32,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_coverage_n32_s42_w1_e200_2026-10-18_23-02-35",
+  "train_wall_seconds": 46.55991716001881,
+  "evaluation_seconds": 9.072103935992345,
+  "basis_file": "basis_coverage_32.json"
+}

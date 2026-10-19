@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "adjoint_checks": [
+    {
+      "camera": 0,
+      "relative_error": 2.014178335230099e-07
+    },
+    {
+      "camera": 1,
+      "relative_error": 3.9644757521273277e-07
+    },
+    {
+      "camera": 2,
+      "relative_error": 3.660764491542068e-07
+    },
+    {
+      "camera": 3,
+      "relative_error": 4.486601881126262e-07
+    }
+  ],
+  "scope": "Assembly agrees with upstream backward operator; does not resolve finite-difference nonconvergence"
+}

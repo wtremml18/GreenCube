@@ -1,0 +1,44 @@
+[
+  {
+    "seed": 42,
+    "condition": "images",
+    "weight": 1.0,
+    "run_name": "images_images_s42_w1_2026-10-18_20-21-01",
+    "elapsed_seconds": 65.6310887336731
+  },
+  {
+    "seed": 42,
+    "condition": "sensors16",
+    "weight": 1.0,
+    "run_name": "images_sensors16_s42_w1_2026-10-18_20-22-05",
+    "elapsed_seconds": 63.77018427848816
+  },
+  {
+    "seed": 43,
+    "condition": "images",
+    "weight": 1.0,
+    "run_name": "images_images_s43_w1_2026-10-18_20-23-08",
+    "elapsed_seconds": 55.83687233924866
+  },
+  {
+    "seed": 43,
+    "condition": "sensors16",
+    "weight": 1.0,
+    "run_name": "images_sensors16_s43_w1_2026-10-18_20-24-05",
+    "elapsed_seconds": 66.2073175907135
+  },
+  {
+    "seed": 44,
+    "condition": "images",
+    "weight": 1.0,
+    "run_name": "images_images_s44_w1_2026-10-18_20-25-11",
+    "elapsed_seconds": 63.45241665840149
+  },
+  {
+    "seed": 44,
+    "condition": "sensors16",
+    "weight": 1.0,
+    "run_name": "images_sensors16_s44_w1_2026-10-18_20-26-15",
+    "elapsed_seconds": 60.725703716278076
+  }
+]

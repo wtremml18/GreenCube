@@ -1,0 +1,12 @@
+{
+  "tag": "coverage_n64_s43_w1_e200",
+  "method": "coverage",
+  "budget": 64,
+  "seed": 43,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_coverage_n64_s43_w1_e200_2026-10-18_23-30-14",
+  "train_wall_seconds": 49.72637204796774,
+  "evaluation_seconds": 9.194857251015492,
+  "basis_file": "basis_coverage_64.json"
+}

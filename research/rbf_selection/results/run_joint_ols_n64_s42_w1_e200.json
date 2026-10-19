@@ -1,0 +1,12 @@
+{
+  "tag": "joint_ols_n64_s42_w1_e200",
+  "method": "joint_ols",
+  "budget": 64,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_joint_ols_n64_s42_w1_e200_2026-10-18_23-10-13",
+  "train_wall_seconds": 44.44398409995483,
+  "evaluation_seconds": 9.213138702034485,
+  "basis_file": "basis_joint_ols_64.json"
+}

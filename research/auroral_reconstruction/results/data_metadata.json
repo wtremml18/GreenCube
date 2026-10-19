@@ -1,0 +1,447 @@
+[
+  {
+    "event": "20230210",
+    "utc": "2023-02-10T09:51:27.500000+00:00",
+    "image_color_unix_times": [
+      1676022690.0,
+      1676022687.5,
+      1676022685.0
+    ],
+    "radar_unix_interval": [
+      1676022625,
+      1676022931
+    ],
+    "radar_image_time_offsets_s": [
+      -62.5,
+      243.5
+    ],
+    "radar_time_index": 45,
+    "altitude_km": 110.0,
+    "retained_bins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13
+    ],
+    "total_bins": 20,
+    "sigma_limit_mVm": 30.0,
+    "image_ridge_coefficients": [
+      87.45842670955096,
+      -0.2756784192745064,
+      0.0005088269524982117
+    ],
+    "image_ridge_residual_km": 6.8142971445771074,
+    "east_component_chart_to_physical_scale_range": [
+      1.000566385488132,
+      1.1141863297691754
+    ]
+  },
+  {
+    "event": "20230212",
+    "utc": "2023-02-12T10:22:10.833333+00:00",
+    "image_color_unix_times": [
+      1676197333.0,
+      1676197331.0,
+      1676197328.5
+    ],
+    "radar_unix_interval": [
+      1676197258,
+      1676197564
+    ],
+    "radar_image_time_offsets_s": [
+      -72.83333325386047,
+      233.16666674613953
+    ],
+    "radar_time_index": 51,
+    "altitude_km": 110.0,
+    "retained_bins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "total_bins": 20,
+    "sigma_limit_mVm": 30.0,
+    "image_ridge_coefficients": [
+      68.07777557801711,
+      -0.42653037691583146,
+      -8.893326807637238e-05
+    ],
+    "image_ridge_residual_km": 2.3079384175297974,
+    "east_component_chart_to_physical_scale_range": [
+      1.0005666729754203,
+      1.1248720467875037
+    ]
+  },
+  {
+    "event": "20230304a",
+    "utc": "2023-03-04T07:30:12.333333+00:00",
+    "image_color_unix_times": [
+      1677915012.0,
+      1677915010.0,
+      1677915015.0
+    ],
+    "radar_unix_interval": [
+      1677914934,
+      1677915236
+    ],
+    "radar_image_time_offsets_s": [
+      -78.33333325386047,
+      223.66666674613953
+    ],
+    "radar_time_index": 11,
+    "altitude_km": 110.0,
+    "retained_bins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "total_bins": 20,
+    "sigma_limit_mVm": 30.0,
+    "image_ridge_coefficients": [
+      -44.2742861651127,
+      0.5600966122444214,
+      0.006036644014414026
+    ],
+    "image_ridge_residual_km": 70.35231918507525,
+    "east_component_chart_to_physical_scale_range": [
+      1.0005655230273645,
+      1.0934421176741647
+    ]
+  },
+  {
+    "event": "20230304b",
+    "utc": "2023-03-04T10:13:49.500000+00:00",
+    "image_color_unix_times": [
+      1677924832.0,
+      1677924829.5,
+      1677924827.0
+    ],
+    "radar_unix_interval": [
+      1677924785,
+      1677925091
+    ],
+    "radar_image_time_offsets_s": [
+      -44.5,
+      261.5
+    ],
+    "radar_time_index": 20,
+    "altitude_km": 110.0,
+    "retained_bins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "total_bins": 20,
+    "sigma_limit_mVm": 30.0,
+    "image_ridge_coefficients": [
+      -9.26105052597708,
+      0.3462896170440531,
+      -0.0018497403752198423
+    ],
+    "image_ridge_residual_km": 39.86320442964512,
+    "east_component_chart_to_physical_scale_range": [
+      1.0005655230273645,
+      1.1037213094636846
+    ]
+  },
+  {
+    "event": "20230314",
+    "utc": "2023-03-14T06:49:07+00:00",
+    "image_color_unix_times": [
+      1678776544.0,
+      1678776550.0,
+      1678776547.0
+    ],
+    "radar_unix_interval": [
+      1678776414,
+      1678776735
+    ],
+    "radar_image_time_offsets_s": [
+      -133.0,
+      188.0
+    ],
+    "radar_time_index": 8,
+    "altitude_km": 110.0,
+    "retained_bins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "total_bins": 20,
+    "sigma_limit_mVm": 30.0,
+    "image_ridge_coefficients": [
+      8.314700203210759,
+      -0.48777360621860255,
+      0.0013359340773592178
+    ],
+    "image_ridge_residual_km": 32.223686593986805,
+    "east_component_chart_to_physical_scale_range": [
+      1.0005646605682434,
+      1.1248947035764187
+    ]
+  },
+  {
+    "event": "20230319",
+    "utc": "2023-03-19T08:23:29+00:00",
+    "image_color_unix_times": [
+      1679214206.0,
+      1679214212.0,
+      1679214209.0
+    ],
+    "radar_unix_interval": [
+      1679214188,
+      1679214509
+    ],
+    "radar_image_time_offsets_s": [
+      -21.0,
+      300.0
+    ],
+    "radar_time_index": 21,
+    "altitude_km": 110.0,
+    "retained_bins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "total_bins": 20,
+    "sigma_limit_mVm": 30.0,
+    "image_ridge_coefficients": [
+      259.12599218512247,
+      -0.23663705784705996,
+      -0.00043465278876299686
+    ],
+    "image_ridge_residual_km": 1.9187166080665115,
+    "east_component_chart_to_physical_scale_range": [
+      1.0005646605682434,
+      1.114211070133742
+    ]
+  },
+  {
+    "event": "isinglass",
+    "optical_datetime": [
+      2017,
+      3,
+      2,
+      7,
+      54,
+      10
+    ],
+    "frame": 90,
+    "retained_samples": 130,
+    "original_samples": 195,
+    "original_row_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+    ],
+    "elapsed_seconds_range": [
+      133.99483219419866,
+      401.12228443866945
+    ],
+    "rocket_unix_range": [
+      1488441133.9948323,
+      1488441401.1222844
+    ],
+    "rocket_image_offset_range_s": [
+      -116.00516772270203,
+      151.12228441238403
+    ],
+    "maximum_time_offset_filter_s": null,
+    "source_notes": [
+      "JVI + KAL best understanding as of september 2023. Flow vectors rotated from geographic to geomagnetic according to gemini3d.geog2UEN using dt=1e-3 seconds. This amounts to a geographic up axis rotatation of 28.0 - 28.4 \u00b0.",
+      "gemini3d.goeg2UEN is a simple west+south rotation, not proper apex transform. hardwired to Alaska, 2017?"
+    ],
+    "assumed_measurement_sigma_ms": 100.0,
+    "image_ridge_coefficients": [
+      -56.443440988260164,
+      0.1166779577528385,
+      0.00027104749520746174
+    ],
+    "image_ridge_residual_km": 1.2915540839292543,
+    "limitation": "Static optical inversion applied to moving track. Nominal 100 km local geomagnetic plane; upstream vector rotation is approximate, per source note. No independent track."
+  }
+]
