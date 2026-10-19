@@ -1,0 +1,50 @@
+[
+  {
+    "seed": 42,
+    "condition": "images-random16",
+    "weight": 1.0,
+    "run_name": "images_images_s42_w0.01_2026-10-18_20-16-50",
+    "sensor_file": "image_sensors_random16.json",
+    "elapsed_seconds": 11.8179030418396
+  },
+  {
+    "seed": 42,
+    "condition": "random16",
+    "weight": 1.0,
+    "run_name": "images_random16_s42_w1_2026-10-18_20-30-54",
+    "sensor_file": "image_sensors_random16.json",
+    "elapsed_seconds": 77.43787717819214
+  },
+  {
+    "seed": 43,
+    "condition": "images-random16",
+    "weight": 1.0,
+    "run_name": "images_images_s43_w0.01_2026-10-18_20-18-47",
+    "sensor_file": "image_sensors_random16.json",
+    "elapsed_seconds": 10.538723945617676
+  },
+  {
+    "seed": 43,
+    "condition": "random16",
+    "weight": 1.0,
+    "run_name": "images_random16_s43_w1_2026-10-18_20-32-21",
+    "sensor_file": "image_sensors_random16.json",
+    "elapsed_seconds": 56.0662579536438
+  },
+  {
+    "seed": 44,
+    "condition": "images-random16",
+    "weight": 1.0,
+    "run_name": "images_images_s44_w0.01_2026-10-18_20-20-40",
+    "sensor_file": "image_sensors_random16.json",
+    "elapsed_seconds": 7.672402620315552
+  },
+  {
+    "seed": 44,
+    "condition": "random16",
+    "weight": 1.0,
+    "run_name": "images_random16_s44_w1_2026-10-18_20-33-25",
+    "sensor_file": "image_sensors_random16.json",
+    "elapsed_seconds": 62.687732219696045
+  }
+]

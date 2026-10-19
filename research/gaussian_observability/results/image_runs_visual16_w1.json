@@ -1,0 +1,50 @@
+[
+  {
+    "seed": 42,
+    "condition": "images-visual16",
+    "weight": 1.0,
+    "run_name": "images_images_s42_w0.01_2026-10-18_20-16-50",
+    "sensor_file": "image_sensors_visual16.json",
+    "elapsed_seconds": 10.468538522720337
+  },
+  {
+    "seed": 42,
+    "condition": "visual16",
+    "weight": 1.0,
+    "run_name": "images_visual16_s42_w1_2026-10-18_20-24-12",
+    "sensor_file": "image_sensors_visual16.json",
+    "elapsed_seconds": 65.5491943359375
+  },
+  {
+    "seed": 43,
+    "condition": "images-visual16",
+    "weight": 1.0,
+    "run_name": "images_images_s43_w0.01_2026-10-18_20-18-47",
+    "sensor_file": "image_sensors_visual16.json",
+    "elapsed_seconds": 10.942264795303345
+  },
+  {
+    "seed": 43,
+    "condition": "visual16",
+    "weight": 1.0,
+    "run_name": "images_visual16_s43_w1_2026-10-18_20-25-29",
+    "sensor_file": "image_sensors_visual16.json",
+    "elapsed_seconds": 66.22626423835754
+  },
+  {
+    "seed": 44,
+    "condition": "images-visual16",
+    "weight": 1.0,
+    "run_name": "images_images_s44_w0.01_2026-10-18_20-20-40",
+    "sensor_file": "image_sensors_visual16.json",
+    "elapsed_seconds": 11.579787254333496
+  },
+  {
+    "seed": 44,
+    "condition": "visual16",
+    "weight": 1.0,
+    "run_name": "images_visual16_s44_w1_2026-10-18_20-26-47",
+    "sensor_file": "image_sensors_visual16.json",
+    "elapsed_seconds": 66.46619820594788
+  }
+]

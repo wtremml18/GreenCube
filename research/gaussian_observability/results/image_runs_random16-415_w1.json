@@ -1,0 +1,18 @@
+[
+  {
+    "seed": 42,
+    "condition": "images-random16-415",
+    "weight": 1.0,
+    "run_name": "images_images_s42_w0.01_2026-10-18_20-16-50",
+    "sensor_file": "image_sensors_random16_415.json",
+    "elapsed_seconds": 7.693066120147705
+  },
+  {
+    "seed": 42,
+    "condition": "random16-415",
+    "weight": 1.0,
+    "run_name": "images_random16-415_s42_w1_2026-10-18_20-34-59",
+    "sensor_file": "image_sensors_random16_415.json",
+    "elapsed_seconds": 56.4488365650177
+  }
+]

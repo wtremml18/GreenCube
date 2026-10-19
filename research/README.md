@@ -4,6 +4,7 @@ Start with **[RESEARCH_FINDINGS.md](RESEARCH_FINDINGS.md)** for conclusions, num
 
 - [`track_observability`](track_observability): independent Python kernel implementation, dipole audit, track ambiguity, finite-basis observability, arc geometry and public ocean-data experiments.
 - [`gaussian_transport`](gaussian_transport): Gaussian position/covariance transport, exact density ambiguity, and sparse-velocity experiments on public ScalarSyn fluid volumes.
+- [`gaussian_observability`](gaussian_observability): executed LagrangianSplats camera reconstruction, simulated sparse instruments, sensor-only controls, spatial design and uncertainty audit. **[Latest Gaussian conclusions](gaussian_observability/RESULTS.md): 31% short-window motion improvement from sensors, but no advantage over a conventional sensor-only fit.**
 - [`auroral_data`](auroral_data): verified public Lynch-group ISINGLASS and Swarm-over-Poker inputs, source references, and an acquisition/schema/quality audit.
 - [`auroral_reconstruction`](auroral_reconstruction): executed application to public ISINGLASS flow and six PFISR/DASC events, actual auroral photography, guarded holdouts, image geometry controls, and uncertainty diagnostics. **[Latest real-data conclusions](auroral_reconstruction/RESULTS.md).**
 - [Thesis review](track_observability/notes/thesis_review.md), [literature and novelty audit](LITERATURE.md), and [mathematical specification](METHODS.md).
@@ -12,7 +13,7 @@ All new work is isolated here. Existing acquisition/calibration code is unchange
 
 ## Reproduce
 
-Run from the GreenCube repository root with Python 3.11 or newer (executed here with Python 3.14.2). CPU computation is sufficient; no CUDA or upstream rendering pipeline is required.
+Run the original benchmark suite from the GreenCube repository root with Python 3.11 or newer (executed here with Python 3.14.2). CPU computation is sufficient for that suite. The optional camera reconstruction extension below requires CUDA and the upstream renderer.
 
 ```bash
 python3 -m venv .venv
@@ -41,3 +42,11 @@ There are 1,484 fitted-model evaluation rows across nine main result CSVs, in ad
 The protocols record exploratory follow-ups and corrections after outcomes were inspected. All specified conditions, including negative results, remain available. `evidence_manifest.json` records SHA-256 hashes for source code and result artifacts at the final verification point. Wall-clock timing fields can differ on reproduction; numerical results should agree within floating-point variation.
 
 The auroral application is a separate optional pipeline (576.6 MB of public inputs). Its [reproduction commands](auroral_reconstruction/README.md#reproduce) run nine additional tests and produce 1,442 individual held-out prediction rows. These are separate from the original 1,484 benchmark evaluation rows. The full `reproduce.py` runner above has not been expanded to download the auroral data automatically.
+
+The [Gaussian camera extension](gaussian_observability/README.md) has its own CPU/GPU commands, pinned upstream implementation and archive checksums. It records 24 distinct controlled camera fits, a conventional sensor-only comparator, and 12,000 volumetric design metric rows. These all use one synthetic scene, not independent events. Its seven CPU tests bring the complete research test count to 27:
+
+```bash
+python -m pytest research/track_observability/tests research/gaussian_transport/tests \
+  research/auroral_reconstruction/test_model.py research/gaussian_observability/tests -q
+python research/gaussian_observability/scripts/validate.py
+```

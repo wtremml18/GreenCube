@@ -1,0 +1,18 @@
+[
+  {
+    "seed": 42,
+    "condition": "images-visual16-f10",
+    "weight": 1.0,
+    "run_name": "images_images-visual16-f10_s42_w1_2026-10-18_20-27-07",
+    "sensor_file": "image_sensors_visual16_f10.json",
+    "elapsed_seconds": 160.05076599121094
+  },
+  {
+    "seed": 42,
+    "condition": "visual16-f10",
+    "weight": 1.0,
+    "run_name": "images_visual16-f10_s42_w1_2026-10-18_20-29-46",
+    "sensor_file": "image_sensors_visual16_f10.json",
+    "elapsed_seconds": 173.12623953819275
+  }
+]

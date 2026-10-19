@@ -37,5 +37,23 @@
     "event_model_summaries": 49,
     "scope": "Processed-bin/same-track holdouts; independent-track accuracy not established",
     "details": "auroral_reconstruction/results/verification.json"
+  },
+  "latest_unit_suite": {
+    "date": "2026-10-18",
+    "passed": 27,
+    "exit_code": 0,
+    "command": "python -m pytest research/track_observability/tests research/gaussian_transport/tests research/auroral_reconstruction/test_model.py research/gaussian_observability/tests -q"
+  },
+  "gaussian_camera_application": {
+    "date": "2026-10-18",
+    "additional_cpu_tests": 7,
+    "gpu_gradient_checks": 5,
+    "controlled_camera_fits": 24,
+    "evaluation_conditions": 34,
+    "common_motion_vectors": 466944,
+    "volumetric_metric_rows": 12000,
+    "prediction_loss_recomputation_passed": true,
+    "scope": "One synthetic scene, reduced budgets, shared initial geometry, simulated sensors; no demonstrated advantage over conventional sensor-only motion estimation",
+    "details": "gaussian_observability/results/verification.json"
   }
 }
