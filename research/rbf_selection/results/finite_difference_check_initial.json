@@ -1,0 +1,74 @@
+{
+  "kernel_max_absolute_error": 1.1403495934203534e-06,
+  "parameter_derivatives": [
+    {
+      "parameter": "centers",
+      "index": [
+        1,
+        0
+      ],
+      "analytic": 0.19734889268875122,
+      "numeric": 0.1972675323486328,
+      "relative_error": 0.0004122665144451844
+    },
+    {
+      "parameter": "centers",
+      "index": [
+        3,
+        1
+      ],
+      "analytic": 0.22115646302700043,
+      "numeric": 0.22106170654296875,
+      "relative_error": 0.0004284590318308205
+    },
+    {
+      "parameter": "radii",
+      "index": [
+        2
+      ],
+      "analytic": 0.009491406381130219,
+      "numeric": 0.009655952453613281,
+      "relative_error": 0.017336321497117155
+    },
+    {
+      "parameter": "weights",
+      "index": [
+        2,
+        1
+      ],
+      "analytic": -1.3234611749649048,
+      "numeric": -1.3239383697509766,
+      "relative_error": 0.0003605657612770027
+    }
+  ],
+  "renderer_derivatives": [
+    {
+      "candidate": 13,
+      "analytic": -0.12524670362472534,
+      "numeric": [
+        -0.1335352659225464,
+        -0.12846589088439941
+      ],
+      "relative_error": 0.06617788778422408
+    },
+    {
+      "candidate": 77,
+      "analytic": 0.23457849025726318,
+      "numeric": [
+        0.23845434188842773,
+        0.2363443374633789
+      ],
+      "relative_error": 0.016522621604878985
+    },
+    {
+      "candidate": 300,
+      "analytic": -0.051629237830638885,
+      "numeric": [
+        -0.08011460304260254,
+        -0.10575056076049805
+      ],
+      "relative_error": 0.5517293380430125
+    }
+  ],
+  "passed": false
+}

@@ -5,6 +5,7 @@ Start with **[RESEARCH_FINDINGS.md](RESEARCH_FINDINGS.md)** for conclusions, num
 - [`track_observability`](track_observability): independent Python kernel implementation, dipole audit, track ambiguity, finite-basis observability, arc geometry and public ocean-data experiments.
 - [`gaussian_transport`](gaussian_transport): Gaussian position/covariance transport, exact density ambiguity, and sparse-velocity experiments on public ScalarSyn fluid volumes.
 - [`gaussian_observability`](gaussian_observability): executed LagrangianSplats camera reconstruction, simulated sparse instruments, sensor-only controls, spatial design and uncertainty audit. **[Latest Gaussian conclusions](gaussian_observability/RESULTS.md): 31% short-window motion improvement from sensors, but no advantage over a conventional sensor-only fit.**
+- [`rbf_selection`](rbf_selection): exact-budget motion-basis selection for the camera pipeline, connecting thesis OLS/regularized OLS and support selection to dynamic Gaussian reconstruction. A 64-kernel regularized fit improves motion by 5% over broad coverage, while a full-bank direct sensor fit remains better. [Methods](rbf_selection/METHOD.md), [protocol](rbf_selection/PROTOCOL.md), and [results](rbf_selection/RESULTS.md).
 - [`auroral_data`](auroral_data): verified public Lynch-group ISINGLASS and Swarm-over-Poker inputs, source references, and an acquisition/schema/quality audit.
 - [`auroral_reconstruction`](auroral_reconstruction): executed application to public ISINGLASS flow and six PFISR/DASC events, actual auroral photography, guarded holdouts, image geometry controls, and uncertainty diagnostics. **[Latest real-data conclusions](auroral_reconstruction/RESULTS.md).**
 - [Thesis review](track_observability/notes/thesis_review.md), [literature and novelty audit](LITERATURE.md), and [mathematical specification](METHODS.md).
@@ -49,4 +50,12 @@ The [Gaussian camera extension](gaussian_observability/README.md) has its own CP
 python -m pytest research/track_observability/tests research/gaussian_transport/tests \
   research/auroral_reconstruction/test_model.py research/gaussian_observability/tests -q
 python research/gaussian_observability/scripts/validate.py
+```
+
+The [motion-RBF selection extension](rbf_selection/README.md) adds five tests, bringing the combined CPU suite to 32. Its renderer derivative audit and backward-operator consistency checks are reported separately; the original small-step finite-difference renderer check failed and is retained. Run its documented GPU comparisons and artifact validation separately from the original CPU runner.
+
+```bash
+python -m pytest research/track_observability/tests research/gaussian_transport/tests \
+  research/auroral_reconstruction/test_model.py research/gaussian_observability/tests \
+  research/rbf_selection/tests -q
 ```

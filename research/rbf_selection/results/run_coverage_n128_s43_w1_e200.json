@@ -1,0 +1,12 @@
+{
+  "tag": "coverage_n128_s43_w1_e200",
+  "method": "coverage",
+  "budget": 128,
+  "seed": 43,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_coverage_n128_s43_w1_e200_2026-10-18_23-33-04",
+  "train_wall_seconds": 54.25186273397412,
+  "evaluation_seconds": 9.164025061007123,
+  "basis_file": "basis_coverage_128.json"
+}

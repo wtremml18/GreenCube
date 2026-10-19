@@ -1,0 +1,5 @@
+{
+  "normalized_initial_image_sse": 0.000621890264862831,
+  "normalized_initial_sensor_sse": 0.7379646077676241,
+  "scope": "Local normalized squared-loss proxy; these are not the nonlinear optimizer losses or measurement-noise likelihoods."
+}

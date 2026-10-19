@@ -1,0 +1,12 @@
+{
+  "tag": "poisson_n128_s42_w1_e200",
+  "method": "poisson",
+  "budget": 128,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_poisson_n128_s42_w1_e200_2026-10-18_23-11-05",
+  "train_wall_seconds": 59.50838842004305,
+  "evaluation_seconds": 9.131936778954696,
+  "basis_file": "basis_poisson_128.json"
+}

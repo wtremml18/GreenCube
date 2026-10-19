@@ -42,3 +42,13 @@ Additional primary sources checked during this work:
 - The [official data card](https://huggingface.co/datasets/tnx123/LagrangianSplats-Dataset) distinguishes camera/image archives from density/velocity truth and states that ScalarReal lacks released truth volumes. Our new direct motion-error measurements therefore use ScalarSyn, a synthetic scene.
 
 The defensible current contribution is an executable observation-budget and calibration audit, including the failure of opacity-only sensor support and overconfident Gaussian-process uncertainty. A publication would still need independent scenes, stronger sensor-budget controls, a complete novelty comparison, and longer-sequence validation.
+
+## Follow-up: RBF selection for Gaussian motion (2026-10-18)
+
+The new [`rbf_selection`](rbf_selection) experiment directly adapts the thesis's center/shape selection and regularized OLS discussion. Block greedy regression is established mathematics. LagrangianSplats already optimizes kernel centers, radii and weights; the intervention here selects its initial motion basis through a local image/sensor observation map. It does not select appearance primitives.
+
+[Xing et al., DDFKs (2026), Section 5.3](https://arxiv.org/html/2601.17693v1#S5.SS3) also adapts divergence-free kernels in forward fluid simulation. Its reinitialization refits the current field and adds particles in regions with high gradient error. This is relevant prior art for adaptive kernel allocation, although its simulation targets differ from the sparse observation problem tested here.
+
+[Xie et al., Gaussian Splatting Lucas-Kanade (ICLR 2025)](https://proceedings.iclr.cc/paper_files/paper/2025/hash/f293e066760add1887a5ef636f76bb36-Abstract-Conference.html) applies classical motion estimation to dynamic Gaussian splatting and imposes image/scene-flow constraints. It is adjacent prior art for exploiting an image-motion differential relationship; an image Jacobian alone is not a novelty claim.
+
+The targeted search is not an exhaustive novelty proof. Any publication claim must describe the actual selection objective, preserve the derivative-audit limitation, compare against simple compact bases, and demonstrate generalization beyond this one scene.

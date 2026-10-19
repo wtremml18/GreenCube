@@ -1,0 +1,12 @@
+{
+  "tag": "joint_rols_n32_s42_w1_e200",
+  "method": "joint_rols",
+  "budget": 32,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_joint_rols_n32_s42_w1_e200_2026-10-18_23-53-23",
+  "train_wall_seconds": 57.433850624016486,
+  "evaluation_seconds": 10.624431956966873,
+  "basis_file": "basis_joint_rols_32.json"
+}

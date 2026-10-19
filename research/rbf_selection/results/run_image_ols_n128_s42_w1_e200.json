@@ -1,0 +1,12 @@
+{
+  "tag": "image_ols_n128_s42_w1_e200",
+  "method": "image_ols",
+  "budget": 128,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_image_ols_n128_s42_w1_e200_2026-10-18_23-14-17",
+  "train_wall_seconds": 56.33540549996542,
+  "evaluation_seconds": 8.961478031997103,
+  "basis_file": "basis_image_ols_128.json"
+}

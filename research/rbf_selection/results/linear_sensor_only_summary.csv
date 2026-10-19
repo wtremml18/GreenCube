@@ -1,0 +1,11 @@
+kind,budget,vector_rmse
+domain_bank_s914,576,0.7411597766580765
+domain_bank_s915,576,0.750079077217837
+domain_bank_s916,576,0.607907664095756
+domain_cv_sensor,32,0.8086222854949474
+domain_cv_sensor,64,0.7898154954051821
+domain_cv_sensor,128,0.7589946680059988
+full_bank_sensor,576,0.5594618407902961
+selected_rols_fixed_ridge,32,0.6002756047763801
+selected_rols_fixed_ridge,64,0.5808176350715888
+selected_rols_fixed_ridge,128,0.5645931109477583

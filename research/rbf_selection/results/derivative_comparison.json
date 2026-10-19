@@ -1,0 +1,9 @@
+{
+  "relative_frobenius_difference": 0.22067901492118835,
+  "image_32_shared_blocks": 15,
+  "joint_32_shared_blocks": 24,
+  "image_64_shared_blocks": 30,
+  "joint_64_shared_blocks": 33,
+  "image_128_shared_blocks": 59,
+  "joint_128_shared_blocks": 62
+}

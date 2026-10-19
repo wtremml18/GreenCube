@@ -1,0 +1,12 @@
+{
+  "tag": "image_adols_n64_s42_w1_e200",
+  "method": "image_adols",
+  "budget": 64,
+  "seed": 42,
+  "sensor_weight": 1,
+  "epochs": 200,
+  "run_name": "basis_image_adols_n64_s42_w1_e200_2026-10-18_23-22-57",
+  "train_wall_seconds": 44.23374780098675,
+  "evaluation_seconds": 9.030245126981754,
+  "basis_file": "basis_image_adols_64.json"
+}
